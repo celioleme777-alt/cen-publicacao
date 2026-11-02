@@ -1,0 +1,15 @@
+{
+ "id": "teste-img",
+ "tipo": "imagem",
+ "inicio": "2026-11-02T16:25:20.378421Z",
+ "etapas": [
+  "container feed IG: {'id': '18096636167482228'}",
+  "processamento: {'id': '18096636167482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "TESTE: feed IG pronto, nao publicado",
+  "container story IG: {'id': '18096636209482228'}",
+  "processamento: {'id': '18096636209482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "TESTE: story IG pronto, nao publicado",
+  "arquivos temporarios removidos"
+ ],
+ "fim": "2026-11-02T16:25:58.221880Z"
+}
