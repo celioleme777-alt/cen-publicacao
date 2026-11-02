@@ -1,0 +1,14 @@
+{
+ "id": "teste-01",
+ "inicio": "2026-11-02T12:38:46.761827Z",
+ "etapas": [
+  "video temporario: https://raw.githubusercontent.com/celioleme777-alt/cen-publicacao/main/tmp/teste-01.mp4",
+  "container IG: {'id': '18096577154482228'}",
+  "processamento IG: {'id': '18096577154482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "TESTE: IG pronto, nao publicado",
+  "upload FB: {\"success\":true,\"message\":\"Upload Successful. To check the status of the video, please follow the instructions listed at https:\\/\\/developers.facebook.com\\/docs\\/video-api\\/guides\\/reels-publishing#get-the-upload-status.\"}",
+  "FB (rascunho): {'success': True, 'message': 'Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.', 'post_id': '122101766991531850'}",
+  "video temporario removido"
+ ],
+ "fim": "2026-11-02T12:39:59.062299Z"
+}
