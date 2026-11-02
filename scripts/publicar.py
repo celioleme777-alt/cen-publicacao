@@ -33,8 +33,84 @@ def salvar_status(pid, st):
     json.dump(st, open(f"status/{pid}.json", "w"), ensure_ascii=False, indent=1)
 
 def publicar(pasta):
-    pid = os.path.basename(pasta)
     post = json.load(open(f"{pasta}/post.json"))
+    if post.get("tipo") == "imagem":
+        return publicar_imagem(pasta, post)
+    return publicar_reel(pasta, post)
+
+def tmp_publico(pid, nome_enc, ext):
+    """Decifra um arquivo da fila e o publica temporariamente no repositorio (URL publica)."""
+    os.makedirs("tmp", exist_ok=True)
+    tmp = f"tmp/{pid}_{nome_enc.split('.')[0]}.{ext}"
+    subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-pbkdf2", "-pass", "env:META_TOKEN",
+                    "-in", f"fila/{pid}/{nome_enc}", "-out", tmp], check=True)
+    return tmp, f"https://raw.githubusercontent.com/{REPO}/main/{tmp}"
+
+def esperar(cid, log, tentativas=60):
+    estado = {}
+    for _ in range(tentativas):
+        time.sleep(5)
+        estado = api("GET", cid, fields="status_code,status")
+        if estado.get("status_code") in ("FINISHED", "ERROR"):
+            break
+    log(f"processamento: {estado}")
+    return estado.get("status_code") == "FINISHED"
+
+def publicar_imagem(pasta, post):
+    pid = os.path.basename(pasta)
+    st = {"id": pid, "tipo": "imagem", "inicio": datetime.datetime.utcnow().isoformat() + "Z", "etapas": []}
+    log = lambda m: (st["etapas"].append(m), print(m, flush=True))
+    teste = post.get("teste", False)
+    ig = IG["cristoemnoscelioleme"]
+    tmps = []
+    feed_tmp, feed_url = tmp_publico(pid, "feed.jpg.enc", "jpg"); tmps.append(feed_tmp)
+    story_url = None
+    if os.path.exists(f"{pasta}/story.jpg.enc"):
+        story_tmp, story_url = tmp_publico(pid, "story.jpg.enc", "jpg"); tmps.append(story_tmp)
+    git("add", *tmps); git("commit", "-qm", f"tmp {pid}"); git("push", "-q")
+    time.sleep(10)
+    try:
+        # 1. Feed do Instagram (o espelho leva ao Facebook)
+        c = api("POST", f"{ig}/media", image_url=feed_url, caption=post["legenda"])
+        log(f"container feed IG: {c}")
+        if c.get("id") and esperar(c["id"], log):
+            if teste:
+                log("TESTE: feed IG pronto, nao publicado")
+            else:
+                pub = api("POST", f"{ig}/media_publish", creation_id=c["id"])
+                log(f"feed IG publicado: {pub}")
+                if pub.get("id"):
+                    st["permalink_ig"] = api("GET", pub["id"], fields="permalink").get("permalink")
+        else:
+            st["erro"] = "feed IG nao ficou pronto"
+        # 2. Story do Instagram
+        if story_url and post.get("story", True):
+            c = api("POST", f"{ig}/media", media_type="STORIES", image_url=story_url)
+            log(f"container story IG: {c}")
+            if c.get("id") and esperar(c["id"], log):
+                if teste:
+                    log("TESTE: story IG pronto, nao publicado")
+                else:
+                    log(f"story IG publicado: {api('POST', f'{ig}/media_publish', creation_id=c['id'])}")
+            else:
+                st["erro_story_ig"] = "story IG nao ficou pronto"
+        # 3. Story da Pagina do Facebook
+        if story_url and post.get("story", True) and post.get("facebook", True) and not teste:
+            pt = api("GET", PAGE, fields="access_token")["access_token"]
+            foto = api("POST", f"{PAGE}/photos", url=story_url, published="false", token=pt)
+            log(f"foto story FB: {foto}")
+            if foto.get("id"):
+                log(f"story FB: {api('POST', f'{PAGE}/photo_stories', photo_id=foto['id'], token=pt)}")
+    finally:
+        git("rm", "-q", *tmps); git("commit", "-qm", f"remove tmp {pid}"); git("push", "-q")
+        log("arquivos temporarios removidos")
+    st["fim"] = datetime.datetime.utcnow().isoformat() + "Z"
+    salvar_status(pid, st)
+    os.rename(f"{pasta}/post.json", f"{pasta}/post.feito.json")
+    git("add", "-A", "status", pasta); git("commit", "-qm", f"status {pid}"); git("push", "-q")
+
+def publicar_reel(pasta, post):
+    pid = os.path.basename(pasta)
     st = {"id": pid, "inicio": datetime.datetime.utcnow().isoformat() + "Z", "etapas": []}
     log = lambda m: (st["etapas"].append(m), print(m, flush=True))
     teste = post.get("teste", False)
@@ -119,7 +195,13 @@ def main():
         post = json.load(open(pj))
         quando = datetime.datetime.fromisoformat(post["publicar_em_utc"].replace("Z", ""))
         if quando <= agora:
-            publicar(os.path.dirname(pj))
+            try:
+                publicar(os.path.dirname(pj))
+            except Exception as e:
+                print(f"ERRO em {pj}: {e}", flush=True)
+                if os.path.exists(pj):  # nao tenta de novo sozinho, para nao duplicar post
+                    os.rename(pj, pj.replace("post.json", "post.erro.json"))
+                    git("add", "-A", os.path.dirname(pj)); git("commit", "-qm", f"erro {pj}"); git("push", "-q")
 
 if __name__ == "__main__":
     main()
