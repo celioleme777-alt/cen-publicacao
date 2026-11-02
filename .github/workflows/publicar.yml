@@ -1,0 +1,25 @@
+name: publicar
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  push:
+    paths: ["fila/**"]
+  workflow_dispatch:
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publicar itens vencidos
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+        run: |
+          git config user.name "publicador-cen"
+          git config user.email "publicador-cen@users.noreply.github.com"
+          python3 scripts/publicar.py
