@@ -211,6 +211,17 @@ def main():
         post = json.load(open(pj))
         quando = datetime.datetime.fromisoformat(post["publicar_em_utc"].replace("Z", ""))
         if quando <= agora:
+            desde = post.get("somente_se_vazio_desde_utc")
+            if desde:  # reserva: so publica se a conta nao publicou nada desde 'desde'
+                conta = IG[post.get("conta_reserva", "cristoemnoscelioleme")]
+                midias = api("GET", f"{conta}/media", fields="timestamp,media_type", limit=5).get("data", [])
+                lim = datetime.datetime.fromisoformat(desde.replace("Z", ""))
+                ja = [m for m in midias if datetime.datetime.strptime(m["timestamp"][:19], "%Y-%m-%dT%H:%M:%S") >= lim]
+                if ja:
+                    print(f"reserva {pj} pulada: conta ja publicou {ja[0]}", flush=True)
+                    os.rename(pj, pj.replace("post.json", "post.pulado.json"))
+                    git("add", "-A", os.path.dirname(pj)); git("commit", "-qm", f"reserva pulada {pj}"); git("push", "-q")
+                    continue
             try:
                 publicar(os.path.dirname(pj))
             except Exception as e:
