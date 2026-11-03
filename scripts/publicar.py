@@ -72,9 +72,11 @@ def publicar_imagem(pasta, post):
     st = {"id": pid, "tipo": "imagem", "inicio": datetime.datetime.utcnow().isoformat() + "Z", "etapas": []}
     log = lambda m: (st["etapas"].append(m), print(m, flush=True))
     teste = post.get("teste", False)
-    ig = IG["cristoemnoscelioleme"]
+    ig = IG[post.get("conta", "cristoemnoscelioleme")]
     tmps = []
-    feed_tmp, feed_url = tmp_publico(pid, "feed.jpg.enc", "jpg"); tmps.append(feed_tmp)
+    feed_url = None
+    if os.path.exists(f"{pasta}/feed.jpg.enc") and post.get("feed", True):
+        feed_tmp, feed_url = tmp_publico(pid, "feed.jpg.enc", "jpg"); tmps.append(feed_tmp)
     story_url = None
     if os.path.exists(f"{pasta}/story.jpg.enc"):
         story_tmp, story_url = tmp_publico(pid, "story.jpg.enc", "jpg"); tmps.append(story_tmp)
@@ -82,22 +84,23 @@ def publicar_imagem(pasta, post):
     time.sleep(10)
     try:
         # 1. Feed do Instagram (o espelho leva ao Facebook)
-        p = dict(image_url=feed_url, caption=post["legenda"])
-        if post.get("colaboradores"):
-            p["collaborators"] = json.dumps(post["colaboradores"])
-        c = api("POST", f"{ig}/media", **p)
-        log(f"container feed IG: {c}")
-        if c.get("id") and esperar(c["id"], log):
-            if teste:
-                log("TESTE: feed IG pronto, nao publicado")
+        if feed_url:
+            p = dict(image_url=feed_url, caption=post["legenda"])
+            if post.get("colaboradores"):
+                p["collaborators"] = json.dumps(post["colaboradores"])
+            c = api("POST", f"{ig}/media", **p)
+            log(f"container feed IG: {c}")
+            if c.get("id") and esperar(c["id"], log):
+                if teste:
+                    log("TESTE: feed IG pronto, nao publicado")
+                else:
+                    pub = api("POST", f"{ig}/media_publish", creation_id=c["id"])
+                    log(f"feed IG publicado: {pub}")
+                    if pub.get("id"):
+                        st["permalink_ig"] = api("GET", pub["id"], fields="permalink").get("permalink")
+                        aceitar_convites(pub["id"], post.get("colaboradores", []), log)
             else:
-                pub = api("POST", f"{ig}/media_publish", creation_id=c["id"])
-                log(f"feed IG publicado: {pub}")
-                if pub.get("id"):
-                    st["permalink_ig"] = api("GET", pub["id"], fields="permalink").get("permalink")
-                    aceitar_convites(pub["id"], post.get("colaboradores", []), log)
-        else:
-            st["erro"] = "feed IG nao ficou pronto"
+                st["erro"] = "feed IG nao ficou pronto"
         # 2. Stories do Instagram (conta principal + contas listadas em stories_em)
         if story_url and post.get("story", True):
             for nome in post.get("stories_em", ["cristoemnoscelioleme"]):
