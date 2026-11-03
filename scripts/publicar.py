@@ -56,6 +56,17 @@ def esperar(cid, log, tentativas=60):
     log(f"processamento: {estado}")
     return estado.get("status_code") == "FINISHED"
 
+def aceitar_convites(mid, colaboradores, log):
+    for nome in colaboradores:
+        for _ in range(18):
+            time.sleep(10)
+            inv = api("GET", f"{IG[nome]}/collaboration_invites")
+            if any(i.get("media_id") == mid for i in inv.get("data", [])):
+                log(f"convite aceito em {nome}: {api('POST', f'{IG[nome]}/collaboration_invites', media_id=mid, accept='true')}")
+                break
+        else:
+            log(f"convite NAO encontrado em {nome}")
+
 def publicar_imagem(pasta, post):
     pid = os.path.basename(pasta)
     st = {"id": pid, "tipo": "imagem", "inicio": datetime.datetime.utcnow().isoformat() + "Z", "etapas": []}
@@ -71,7 +82,10 @@ def publicar_imagem(pasta, post):
     time.sleep(10)
     try:
         # 1. Feed do Instagram (o espelho leva ao Facebook)
-        c = api("POST", f"{ig}/media", image_url=feed_url, caption=post["legenda"])
+        p = dict(image_url=feed_url, caption=post["legenda"])
+        if post.get("colaboradores"):
+            p["collaborators"] = json.dumps(post["colaboradores"])
+        c = api("POST", f"{ig}/media", **p)
         log(f"container feed IG: {c}")
         if c.get("id") and esperar(c["id"], log):
             if teste:
@@ -81,19 +95,21 @@ def publicar_imagem(pasta, post):
                 log(f"feed IG publicado: {pub}")
                 if pub.get("id"):
                     st["permalink_ig"] = api("GET", pub["id"], fields="permalink").get("permalink")
+                    aceitar_convites(pub["id"], post.get("colaboradores", []), log)
         else:
             st["erro"] = "feed IG nao ficou pronto"
-        # 2. Story do Instagram
+        # 2. Stories do Instagram (conta principal + contas listadas em stories_em)
         if story_url and post.get("story", True):
-            c = api("POST", f"{ig}/media", media_type="STORIES", image_url=story_url)
-            log(f"container story IG: {c}")
-            if c.get("id") and esperar(c["id"], log):
-                if teste:
-                    log("TESTE: story IG pronto, nao publicado")
+            for nome in post.get("stories_em", ["cristoemnoscelioleme"]):
+                c = api("POST", f"{IG[nome]}/media", media_type="STORIES", image_url=story_url)
+                log(f"container story IG {nome}: {c}")
+                if c.get("id") and esperar(c["id"], log):
+                    if teste:
+                        log(f"TESTE: story IG {nome} pronto, nao publicado")
+                    else:
+                        log(f"story IG {nome} publicado: {api('POST', f'{IG[nome]}/media_publish', creation_id=c['id'])}")
                 else:
-                    log(f"story IG publicado: {api('POST', f'{ig}/media_publish', creation_id=c['id'])}")
-            else:
-                st["erro_story_ig"] = "story IG nao ficou pronto"
+                    st[f"erro_story_ig_{nome}"] = "story IG nao ficou pronto"
         # 3. Story da Pagina do Facebook
         if story_url and post.get("story", True) and post.get("facebook", True) and not teste:
             pt = api("GET", PAGE, fields="access_token")["access_token"]
