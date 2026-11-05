@@ -24,6 +24,7 @@ jobs:
           git config user.email "publicador-cen@users.noreply.github.com"
           python3 scripts/publicar.py
           python3 scripts/espelhar.py
+          python3 scripts/conferir.py || true
           git pull -q --rebase || true
           git add status/espelho.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -qm "espelho FB" && git push -q)
