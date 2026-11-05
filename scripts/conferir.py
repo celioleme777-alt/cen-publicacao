@@ -20,8 +20,11 @@ if os.path.exists(arq): raise SystemExit
 rel = {"dia": str(dia), "verificado_utc": agora.isoformat() + "Z", "itens": {}, "correcoes": []}
 for nome, i in IG.items():
     feed = [m for m in api("GET", f"{i}/media", fields="timestamp", limit=5).get("data", []) if ts(m["timestamp"]) >= desde]
-    st = [m for m in api("GET", f"{i}/stories", fields="timestamp").get("data", []) if ts(m["timestamp"]) >= desde]
+    st = [m for m in api("GET", f"{i}/stories", fields="timestamp,media_type,permalink").get("data", []) if ts(m["timestamp"]) >= desde]
     rel["itens"][f"ig_{nome}_feed"] = bool(feed); rel["itens"][f"ig_{nome}_story"] = bool(st)
+    # a esteira nunca publica story em video: video em story = repost indevido (ex.: Reel republicado)
+    vid = [{"hora": m["timestamp"], "link": m.get("permalink", "")} for m in st if m.get("media_type") == "VIDEO"]
+    if vid: rel.setdefault("alertas", []).append({f"ig_{nome}_story_video_inesperado": vid})
 pt = api("GET", PAGE, fields="access_token")["access_token"]
 pf = [p for p in api("GET", f"{PAGE}/posts", fields="created_time", limit=5, access_token=pt).get("data", []) if ts(p["created_time"]) >= desde]
 ps = [s for s in api("GET", f"{PAGE}/stories", access_token=pt).get("data", []) if datetime.datetime.utcfromtimestamp(int(s["creation_time"])) >= desde]
@@ -58,7 +61,7 @@ if origem:
             rel["correcoes"].append({f"ig_{nome}_story": api("POST", f"{i}/media_publish", creation_id=c.get("id", ""))})
 if tmp:
     subprocess.run(["git", "rm", "-q", tmp]); subprocess.run(["git", "commit", "-qm", f"remove tmp conf {dia}"])
-rel["ok"] = all(rel["itens"].values()) or bool(rel["correcoes"])
+rel["ok"] = (all(rel["itens"].values()) or bool(rel["correcoes"])) and not rel.get("alertas")
 os.makedirs("status", exist_ok=True); json.dump(rel, open(arq, "w"), ensure_ascii=False, indent=1)
 subprocess.run(["git", "pull", "-q", "--rebase"]); subprocess.run(["git", "add", arq])
 subprocess.run(["git", "commit", "-qm", f"conferencia {dia}"]); subprocess.run(["git", "push", "-q"])
