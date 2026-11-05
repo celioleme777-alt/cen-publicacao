@@ -34,6 +34,8 @@ def salvar_status(pid, st):
 
 def publicar(pasta):
     post = json.load(open(f"{pasta}/post.json"))
+    if len(post.get("legenda", "")) > 2200:  # limite do Instagram
+        raise ValueError(f"legenda com {len(post['legenda'])} caracteres (limite 2200)")
     if post.get("tipo") == "imagem":
         return publicar_imagem(pasta, post)
     return publicar_reel(pasta, post)
