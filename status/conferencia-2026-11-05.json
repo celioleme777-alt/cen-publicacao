@@ -1,0 +1,15 @@
+{
+ "dia": "2026-11-05",
+ "verificado_utc": "2026-11-06T01:20:23.648312Z",
+ "itens": {
+  "ig_cristoemnoscelioleme_feed": true,
+  "ig_cristoemnoscelioleme_story": true,
+  "ig_celioleme_feed": true,
+  "ig_celioleme_story": true,
+  "fb_pagina_feed": true,
+  "fb_pagina_story": true
+ },
+ "correcoes": [],
+ "origem_story": "fila/fbstory-2026-11-05",
+ "ok": true
+}
