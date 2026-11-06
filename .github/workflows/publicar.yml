@@ -13,7 +13,7 @@ permissions:
 jobs:
   publicar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - name: Publicar itens vencidos
@@ -22,9 +22,7 @@ jobs:
         run: |
           git config user.name "publicador-cen"
           git config user.email "publicador-cen@users.noreply.github.com"
-          python3 scripts/publicar.py
-          python3 scripts/espelhar.py
-          python3 scripts/conferir.py || true
+          python3 scripts/rotina.py || true
           git pull -q --rebase || true
           git add status/espelho.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -qm "espelho FB" && git push -q)
