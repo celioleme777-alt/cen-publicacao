@@ -261,7 +261,7 @@ def publicar_reel(pasta, post):
             time.sleep(10)
             try:
                 stories_video([u for _, u in pares], post.get("stories_em", ["cristoemnoscelioleme", "celioleme"]),
-                              post.get("facebook", True), log, teste)
+                              post.get("story_facebook", False), log, teste)
             finally:
                 git("rm", "-q", *[t for t, _ in pares]); git("commit", "-qm", f"remove tmp story {pid}"); git("push", "-q")
     finally:
