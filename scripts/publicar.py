@@ -38,6 +38,8 @@ def publicar(pasta):
         raise ValueError(f"legenda com {len(post['legenda'])} caracteres (limite 2200)")
     if post.get("tipo") == "imagem":
         return publicar_imagem(pasta, post)
+    if post.get("tipo") == "story_video":
+        return publicar_story_video(pasta, post)
     return publicar_reel(pasta, post)
 
 def tmp_publico(pid, nome_enc, ext):
@@ -68,6 +70,47 @@ def aceitar_convites(mid, colaboradores, log):
                 break
         else:
             log(f"convite NAO encontrado em {nome}")
+
+def stories_video(url, nomes, facebook, log, teste=False):
+    """Publica um video como story no IG (contas em nomes) e na Pagina do Facebook."""
+    for nome in nomes:
+        c = api("POST", f"{IG[nome]}/media", media_type="STORIES", video_url=url)
+        log(f"container story video IG {nome}: {c}")
+        if c.get("id") and esperar(c["id"], log, tentativas=120):
+            if teste:
+                log(f"TESTE: story video IG {nome} pronto")
+            else:
+                log(f"story video IG {nome} publicado: {api('POST', f'{IG[nome]}/media_publish', creation_id=c['id'])}")
+        else:
+            log(f"ERRO story video IG {nome}")
+    if facebook and not teste:
+        pt = api("GET", PAGE, fields="access_token")["access_token"]
+        s = api("POST", f"{PAGE}/video_stories", upload_phase="start", token=pt)
+        log(f"story video FB start: {s}")
+        if s.get("video_id"):
+            req = urllib.request.Request(s["upload_url"], method="POST",
+                                         headers={"Authorization": f"OAuth {pt}", "file_url": url})
+            with urllib.request.urlopen(req, timeout=300) as r:
+                log(f"upload story FB: {r.read().decode()}")
+            time.sleep(20)
+            log(f"story video FB: {api('POST', f'{PAGE}/video_stories', upload_phase='finish', video_id=s['video_id'], token=pt)}")
+
+def publicar_story_video(pasta, post):
+    pid = os.path.basename(pasta)
+    st = {"id": pid, "tipo": "story_video", "inicio": datetime.datetime.utcnow().isoformat() + "Z", "etapas": []}
+    log = lambda m: (st["etapas"].append(m), print(m, flush=True))
+    tmp, url = tmp_publico(pid, "story.mp4.enc", "mp4")
+    git("add", tmp); git("commit", "-qm", f"tmp {pid}"); git("push", "-q")
+    time.sleep(10)
+    try:
+        stories_video(url, post.get("stories_em", ["cristoemnoscelioleme", "celioleme"]),
+                      post.get("facebook", True), log, post.get("teste", False))
+    finally:
+        git("rm", "-q", tmp); git("commit", "-qm", f"remove tmp {pid}"); git("push", "-q")
+    st["fim"] = datetime.datetime.utcnow().isoformat() + "Z"
+    salvar_status(pid, st)
+    os.rename(f"{pasta}/post.json", f"{pasta}/post.feito.json")
+    git("add", "-A", "status", pasta); git("commit", "-qm", f"status {pid}"); git("push", "-q")
 
 def publicar_imagem(pasta, post):
     pid = os.path.basename(pasta)
@@ -200,8 +243,18 @@ def publicar_reel(pasta, post):
                     video_state="DRAFT" if teste else "PUBLISHED",
                     description=post["legenda"], token=pt)
             log(f"FB ({'rascunho' if teste else 'publicado'}): {f}")
+        # 5. Stories com o trecho inicial do Reel
+        if os.path.exists(f"{pasta}/story.mp4.enc") and post.get("story", True):
+            stmp, surl = tmp_publico(pid, "story.mp4.enc", "mp4")
+            git("add", stmp); git("commit", "-qm", f"tmp story {pid}"); git("push", "-q")
+            time.sleep(10)
+            try:
+                stories_video(surl, post.get("stories_em", ["cristoemnoscelioleme", "celioleme"]),
+                              post.get("facebook", True), log, teste)
+            finally:
+                git("rm", "-q", stmp); git("commit", "-qm", f"remove tmp story {pid}"); git("push", "-q")
     finally:
-        # 5. retira o video temporario
+        # 6. retira o video temporario
         git("rm", "-q", tmp); git("commit", "-qm", f"remove tmp {pid}"); git("push", "-q")
         log("video temporario removido")
 

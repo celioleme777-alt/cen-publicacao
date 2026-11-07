@@ -24,7 +24,13 @@ for nome, i in IG.items():
     rel["itens"][f"ig_{nome}_feed"] = bool(feed); rel["itens"][f"ig_{nome}_story"] = bool(st)
     # a esteira nunca publica story em video: video em story = repost indevido (ex.: Reel republicado)
     vid = [{"hora": m["timestamp"], "link": m.get("permalink", "")} for m in st if m.get("media_type") == "VIDEO"]
-    if vid: rel.setdefault("alertas", []).append({f"ig_{nome}_story_video_inesperado": vid})
+    esperado = False
+    for f in glob.glob("status/*.json"):
+        j = json.load(open(f))
+        if isinstance(j, dict) and j.get("fim", "") >= (agora - datetime.timedelta(hours=26)).isoformat() \
+           and f"story video IG {nome} publicado" in " ".join(map(str, j.get("etapas", []))):
+            esperado = True
+    if vid and not esperado: rel.setdefault("alertas", []).append({f"ig_{nome}_story_video_inesperado": vid})
 pt = api("GET", PAGE, fields="access_token")["access_token"]
 pf = [p for p in api("GET", f"{PAGE}/posts", fields="created_time", limit=5, access_token=pt).get("data", []) if ts(p["created_time"]) >= desde]
 ps = [s for s in api("GET", f"{PAGE}/stories", access_token=pt).get("data", []) if datetime.datetime.utcfromtimestamp(int(s["creation_time"])) >= desde]
