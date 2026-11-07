@@ -1,0 +1,17 @@
+{
+ "id": "2026-11-07-story-reel2",
+ "tipo": "story_video",
+ "inicio": "2026-11-07T13:00:20.049136Z",
+ "etapas": [
+  "container story video IG cristoemnoscelioleme: {'id': '18097666274482228'}",
+  "processamento: {'id': '18097666274482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG cristoemnoscelioleme publicado: {'id': '18016109747977367'}",
+  "container story video IG celioleme: {'id': '18646202131036265'}",
+  "processamento: {'id': '18646202131036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG celioleme publicado: {'id': '18082251449719191'}",
+  "story video FB start: {'video_id': '1437929637844326', 'upload_url': 'https://rupload.facebook.com/video-upload/v27.0/1437929637844326'}",
+  "upload story FB: {\"success\":true,\"message\":\"Upload Successful. To check the status of the video, please follow the instructions listed at https:\\/\\/developers.facebook.com\\/docs\\/video-api\\/guides\\/reels-publishing#get-the-upload-status.\"}",
+  "story video FB: {'success': True, 'message': 'Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/page-stories-api.', 'post_id': '1598180408255323'}"
+ ],
+ "fim": "2026-11-07T13:02:20.234709Z"
+}
