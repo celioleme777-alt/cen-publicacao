@@ -71,8 +71,14 @@ def aceitar_convites(mid, colaboradores, log):
         else:
             log(f"convite NAO encontrado em {nome}")
 
-def stories_video(url, nomes, facebook, log, teste=False):
-    """Publica um video como story no IG (contas em nomes) e na Pagina do Facebook."""
+def stories_video(urls, nomes, facebook, log, teste=False):
+    """Publica videos (partes em ordem) como stories no IG (contas em nomes) e na Pagina do Facebook."""
+    if isinstance(urls, str): urls = [urls]
+    for url in urls:
+        _story_video(url, nomes, facebook, log, teste)
+        time.sleep(15)
+
+def _story_video(url, nomes, facebook, log, teste=False):
     for nome in nomes:
         c = api("POST", f"{IG[nome]}/media", media_type="STORIES", video_url=url)
         log(f"container story video IG {nome}: {c}")
@@ -95,18 +101,23 @@ def stories_video(url, nomes, facebook, log, teste=False):
             time.sleep(20)
             log(f"story video FB: {api('POST', f'{PAGE}/video_stories', upload_phase='finish', video_id=s['video_id'], token=pt)}")
 
+def partes_story(pasta):
+    """story_p1.mp4.enc, story_p2.mp4.enc... (em ordem) ou story.mp4.enc."""
+    p = sorted(glob.glob(f"{pasta}/story_p*.mp4.enc"))
+    return p or ([f"{pasta}/story.mp4.enc"] if os.path.exists(f"{pasta}/story.mp4.enc") else [])
+
 def publicar_story_video(pasta, post):
     pid = os.path.basename(pasta)
     st = {"id": pid, "tipo": "story_video", "inicio": datetime.datetime.utcnow().isoformat() + "Z", "etapas": []}
     log = lambda m: (st["etapas"].append(m), print(m, flush=True))
-    tmp, url = tmp_publico(pid, "story.mp4.enc", "mp4")
-    git("add", tmp); git("commit", "-qm", f"tmp {pid}"); git("push", "-q")
+    pares = [tmp_publico(pid, os.path.basename(f), "mp4") for f in partes_story(pasta)]
+    git("add", *[t for t, _ in pares]); git("commit", "-qm", f"tmp {pid}"); git("push", "-q")
     time.sleep(10)
     try:
-        stories_video(url, post.get("stories_em", ["cristoemnoscelioleme", "celioleme"]),
+        stories_video([u for _, u in pares], post.get("stories_em", ["cristoemnoscelioleme", "celioleme"]),
                       post.get("facebook", True), log, post.get("teste", False))
     finally:
-        git("rm", "-q", tmp); git("commit", "-qm", f"remove tmp {pid}"); git("push", "-q")
+        git("rm", "-q", *[t for t, _ in pares]); git("commit", "-qm", f"remove tmp {pid}"); git("push", "-q")
     st["fim"] = datetime.datetime.utcnow().isoformat() + "Z"
     salvar_status(pid, st)
     os.rename(f"{pasta}/post.json", f"{pasta}/post.feito.json")
@@ -244,15 +255,15 @@ def publicar_reel(pasta, post):
                     description=post["legenda"], token=pt)
             log(f"FB ({'rascunho' if teste else 'publicado'}): {f}")
         # 5. Stories com o trecho inicial do Reel
-        if os.path.exists(f"{pasta}/story.mp4.enc") and post.get("story", True):
-            stmp, surl = tmp_publico(pid, "story.mp4.enc", "mp4")
-            git("add", stmp); git("commit", "-qm", f"tmp story {pid}"); git("push", "-q")
+        if partes_story(pasta) and post.get("story", True):
+            pares = [tmp_publico(pid, os.path.basename(f), "mp4") for f in partes_story(pasta)]
+            git("add", *[t for t, _ in pares]); git("commit", "-qm", f"tmp story {pid}"); git("push", "-q")
             time.sleep(10)
             try:
-                stories_video(surl, post.get("stories_em", ["cristoemnoscelioleme", "celioleme"]),
+                stories_video([u for _, u in pares], post.get("stories_em", ["cristoemnoscelioleme", "celioleme"]),
                               post.get("facebook", True), log, teste)
             finally:
-                git("rm", "-q", stmp); git("commit", "-qm", f"remove tmp story {pid}"); git("push", "-q")
+                git("rm", "-q", *[t for t, _ in pares]); git("commit", "-qm", f"remove tmp story {pid}"); git("push", "-q")
     finally:
         # 6. retira o video temporario
         git("rm", "-q", tmp); git("commit", "-qm", f"remove tmp {pid}"); git("push", "-q")
