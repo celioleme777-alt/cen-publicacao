@@ -1,0 +1,17 @@
+{
+ "id": "reel2-primeira-uncao",
+ "inicio": "2026-11-07T01:10:43.162950Z",
+ "etapas": [
+  "video temporario: https://raw.githubusercontent.com/celioleme777-alt/cen-publicacao/main/tmp/reel2-primeira-uncao.mp4",
+  "container IG: {'id': '18097560881482228'}",
+  "processamento IG: {'id': '18097560881482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "publicado IG: {'id': '17884548849534514'}",
+  "convite aceito em celioleme: {'success': True}",
+  "convite aceito em celiolemeoficial: {'success': True}",
+  "upload FB: {\"success\":true,\"message\":\"Upload Successful. To check the status of the video, please follow the instructions listed at https:\\/\\/developers.facebook.com\\/docs\\/video-api\\/guides\\/reels-publishing#get-the-upload-status.\"}",
+  "FB (publicado): {'success': True, 'message': 'Video is Processing. To check the status of the video, please follow the instructions listed at https://developers.facebook.com/docs/video-api/guides/reels-publishing#get-the-upload-status.', 'post_id': '122106270303531850'}",
+  "video temporario removido"
+ ],
+ "permalink_ig": "https://www.instagram.com/reel/Dfa-IyuDX_8/",
+ "fim": "2026-11-07T01:13:02.946374Z"
+}
