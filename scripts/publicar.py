@@ -274,9 +274,20 @@ def publicar_reel(pasta, post):
     os.rename(f"{pasta}/post.json", f"{pasta}/post.feito.json")
     git("add", "-A", "status", pasta); git("commit", "-qm", f"status {pid}"); git("push", "-q")
 
+def sincronizar():
+    """Sempre trabalhar sobre o estado mais recente do repositorio (evita republicar
+    item ja publicado por outra rodada que partiu de um commit antigo)."""
+    subprocess.run(["git", "fetch", "-q", "origin", "main"], check=True)
+    subprocess.run(["git", "reset", "-q", "--hard", "origin/main"], check=True)
+
 def main():
     agora = datetime.datetime.utcnow()
+    sincronizar()
     for pj in sorted(glob.glob("fila/*/post.json")):
+        sincronizar()
+        if not os.path.exists(pj):  # outra rodada ja publicou
+            print(f"{pj} ja tratado por outra rodada", flush=True)
+            continue
         post = json.load(open(pj))
         quando = datetime.datetime.fromisoformat(post["publicar_em_utc"].replace("Z", ""))
         if quando <= agora:
