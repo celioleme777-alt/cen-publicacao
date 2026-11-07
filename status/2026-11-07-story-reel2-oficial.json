@@ -1,0 +1,14 @@
+{
+ "id": "2026-11-07-story-reel2-oficial",
+ "tipo": "story_video",
+ "inicio": "2026-11-07T16:15:24.718822Z",
+ "etapas": [
+  "container story video IG celiolemeoficial: {'id': '18000499155104284'}",
+  "processamento: {'id': '18000499155104284', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG celiolemeoficial publicado: {'id': '18110070764083972'}",
+  "container story video IG celiolemeoficial: {'id': '18000499611104284'}",
+  "processamento: {'id': '18000499611104284', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG celiolemeoficial publicado: {'id': '17952874629271416'}"
+ ],
+ "fim": "2026-11-07T16:18:20.215736Z"
+}
