@@ -4,7 +4,9 @@
  "publicar_em_utc": "2026-11-10T01:10:00Z",
  "feed": false,
  "story": true,
- "stories_em": [],
+ "stories_em": [
+  "celiolemeoficial"
+ ],
  "facebook": true,
  "origem": "story da Pagina CEN (posts do Business Suite nao levam story a Pagina)"
 }
