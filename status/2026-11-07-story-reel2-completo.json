@@ -1,0 +1,20 @@
+{
+ "id": "2026-11-07-story-reel2-completo",
+ "tipo": "story_video",
+ "inicio": "2026-11-07T14:00:20.051766Z",
+ "etapas": [
+  "container story video IG cristoemnoscelioleme: {'id': '18097678094482228'}",
+  "processamento: {'id': '18097678094482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG cristoemnoscelioleme publicado: {'id': '17994173052108372'}",
+  "container story video IG celioleme: {'id': '18646222057036265'}",
+  "processamento: {'id': '18646222057036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG celioleme publicado: {'id': '18137616445735737'}",
+  "container story video IG cristoemnoscelioleme: {'id': '18097678661482228'}",
+  "processamento: {'id': '18097678661482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG cristoemnoscelioleme publicado: {'id': '18136339339677672'}",
+  "container story video IG celioleme: {'id': '18646223287036265'}",
+  "processamento: {'id': '18646223287036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG celioleme publicado: {'id': '17870685585662445'}"
+ ],
+ "fim": "2026-11-07T14:05:16.987184Z"
+}
