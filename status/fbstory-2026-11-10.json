@@ -1,0 +1,14 @@
+{
+ "id": "fbstory-2026-11-10",
+ "tipo": "imagem",
+ "inicio": "2026-11-11T01:10:27.875533Z",
+ "etapas": [
+  "container story IG celiolemeoficial: {'id': '18001026441104284'}",
+  "processamento: {'id': '18001026441104284', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celiolemeoficial publicado: {'id': '18099616124423417'}",
+  "foto story FB: {'id': '122108764635531850'}",
+  "story FB: {'success': True, 'post_id': '1969854864038280'}",
+  "arquivos temporarios removidos"
+ ],
+ "fim": "2026-11-11T01:11:03.452992Z"
+}
