@@ -30,3 +30,4 @@ if noite(0, 50) <= agora() <= noite(1, 20):
     dormir_ate(noite(1, 21)); rodar("conferir.py")
 else:
     rodar("espelhar.py"); rodar("conferir.py")
+rodar("conferir_partes.py")
