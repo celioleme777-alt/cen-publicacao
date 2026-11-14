@@ -1,7 +1,27 @@
 {
  "id": "reel3-de-me-este-monte",
  "republicado": {
-  "celioleme#2": {"utc": "2026-11-14T14:25:00Z", "resultado": "manual: fila/2026-11-14-story-reel3-p2-celioleme"}
+  "celioleme#2": {
+   "utc": "2026-11-14T14:25:00Z",
+   "resultado": "manual: fila/2026-11-14-story-reel3-p2-celioleme"
+  }
  },
- "verificacoes": [{"utc": "2026-11-14T14:30:00Z", "faltando": {"celioleme": [2]}}]
+ "verificacoes": [
+  {
+   "utc": "2026-11-14T14:30:00Z",
+   "faltando": {
+    "celioleme": [
+     2
+    ]
+   }
+  },
+  {
+   "utc": "2026-11-14T14:31:36.451173Z",
+   "faltando": {
+    "celioleme": [
+     2
+    ]
+   }
+  }
+ ]
 }
