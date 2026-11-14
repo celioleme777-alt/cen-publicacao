@@ -1,0 +1,11 @@
+{
+ "id": "2026-11-14-story-reel3-p2-celioleme",
+ "tipo": "story_video",
+ "inicio": "2026-11-14T14:25:05.066579Z",
+ "etapas": [
+  "container story video IG celioleme: {'id': '18649021162036265'}",
+  "processamento: {'id': '18649021162036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG celioleme publicado: {'id': '18110729105348938'}"
+ ],
+ "fim": "2026-11-14T14:26:26.611142Z"
+}
