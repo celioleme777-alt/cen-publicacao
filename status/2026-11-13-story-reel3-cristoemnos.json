@@ -1,0 +1,14 @@
+{
+ "id": "2026-11-13-story-reel3-cristoemnos",
+ "tipo": "story_video",
+ "inicio": "2026-11-14T02:35:22.357920Z",
+ "etapas": [
+  "container story video IG cristoemnoscelioleme: {'id': '18099196877482228'}",
+  "processamento: {'id': '18099196877482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG cristoemnoscelioleme publicado: {'id': '18158168977534354'}",
+  "container story video IG cristoemnoscelioleme: {'id': '18099197120482228'}",
+  "processamento: {'id': '18099197120482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story video IG cristoemnoscelioleme publicado: {'id': '18360621265218195'}"
+ ],
+ "fim": "2026-11-14T02:38:41.650384Z"
+}
