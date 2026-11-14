@@ -195,7 +195,10 @@ def publicar_reel(pasta, post):
     os.makedirs("tmp", exist_ok=True)
     subprocess.run(["openssl", "enc", "-d", "-aes-256-cbc", "-pbkdf2", "-pass", "env:META_TOKEN",
                     "-in", f"{pasta}/video.mp4.enc", "-out", tmp], check=True)
-    git("add", tmp); git("commit", "-qm", f"tmp {pid}"); git("push", "-q")
+    capa = None  # capa do Reel no grid (capa.jpg.enc na pasta do item)
+    if os.path.exists(f"{pasta}/capa.jpg.enc"):
+        capa, capa_url = tmp_publico(pid, "capa.jpg.enc", "jpg")
+    git("add", tmp, *([capa] if capa else [])); git("commit", "-qm", f"tmp {pid}"); git("push", "-q")
     url = f"https://raw.githubusercontent.com/{REPO}/main/{tmp}"
     time.sleep(10)
     log(f"video temporario: {url}")
@@ -207,16 +210,23 @@ def publicar_reel(pasta, post):
                      share_to_feed="true")
             if post.get("colaboradores"):
                 p["collaborators"] = json.dumps(post["colaboradores"])
-            c = api("POST", f"{IG['cristoemnoscelioleme']}/media", **p)
-            log(f"container IG: {c}")
-            cid = c.get("id")
-            estado = None
-            for _ in range(60):
-                time.sleep(10)
-                estado = api("GET", cid, fields="status_code,status")
-                if estado.get("status_code") in ("FINISHED", "ERROR"):
-                    break
-            log(f"processamento IG: {estado}")
+            def criar(p):
+                c = api("POST", f"{IG['cristoemnoscelioleme']}/media", **p)
+                log(f"container IG: {c}")
+                cid = c.get("id"); estado = {}
+                for _ in range(60 if cid else 0):
+                    time.sleep(10)
+                    estado = api("GET", cid, fields="status_code,status")
+                    if estado.get("status_code") in ("FINISHED", "ERROR"):
+                        break
+                log(f"processamento IG: {estado}")
+                return cid, estado
+            if capa:
+                p["cover_url"] = capa_url
+            cid, estado = criar(p)
+            if capa and estado.get("status_code") != "FINISHED":  # se a capa atrapalhar, publica sem ela
+                log("capa falhou; refazendo sem capa")
+                p.pop("cover_url"); cid, estado = criar(p)
             if estado.get("status_code") == "FINISHED":
                 if teste:
                     log("TESTE: IG pronto, nao publicado")
@@ -266,7 +276,7 @@ def publicar_reel(pasta, post):
                 git("rm", "-q", *[t for t, _ in pares]); git("commit", "-qm", f"remove tmp story {pid}"); git("push", "-q")
     finally:
         # 6. retira o video temporario
-        git("rm", "-q", tmp); git("commit", "-qm", f"remove tmp {pid}"); git("push", "-q")
+        git("rm", "-q", tmp, *([capa] if capa else [])); git("commit", "-qm", f"remove tmp {pid}"); git("push", "-q")
         log("video temporario removido")
 
     st["fim"] = datetime.datetime.utcnow().isoformat() + "Z"
