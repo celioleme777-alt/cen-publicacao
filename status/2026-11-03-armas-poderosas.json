@@ -1,0 +1,26 @@
+{
+ "id": "2026-11-03-armas-poderosas",
+ "tipo": "imagem",
+ "inicio": "2026-11-15T01:00:23.147304Z",
+ "etapas": [
+  "container feed IG: {'id': '18099417143482228'}",
+  "processamento: {'id': '18099417143482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '17917750287538558'}",
+  "convite aceito em celioleme: {'success': True}",
+  "convite aceito em celiolemeoficial: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18099417212482228'}",
+  "processamento: {'id': '18099417212482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '18118255559111673'}",
+  "container story IG celioleme: {'id': '18649216432036265'}",
+  "processamento: {'id': '18649216432036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '17918732904522034'}",
+  "container story IG celiolemeoficial: {'id': '18001697505104284'}",
+  "processamento: {'id': '18001697505104284', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celiolemeoficial publicado: {'id': '18119501441079727'}",
+  "foto story FB: {'id': '122110613775531850'}",
+  "story FB: {'success': True, 'post_id': '1463006015177964'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/DfvjSsuk9It/",
+ "fim": "2026-11-15T01:02:11.661384Z"
+}
