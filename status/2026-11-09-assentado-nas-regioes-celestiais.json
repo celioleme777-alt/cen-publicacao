@@ -1,0 +1,26 @@
+{
+ "id": "2026-11-09-assentado-nas-regioes-celestiais",
+ "tipo": "imagem",
+ "inicio": "2026-11-15T01:30:23.771362Z",
+ "etapas": [
+  "container feed IG: {'id': '18099421775482228'}",
+  "processamento: {'id': '18099421775482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18111174164576809'}",
+  "convite aceito em celioleme: {'success': True}",
+  "convite aceito em celiolemeoficial: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18099421850482228'}",
+  "processamento: {'id': '18099421850482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '18126466628476565'}",
+  "container story IG celioleme: {'id': '18649226110036265'}",
+  "processamento: {'id': '18649226110036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18658523338003627'}",
+  "container story IG celiolemeoficial: {'id': '18001701174104284'}",
+  "processamento: {'id': '18001701174104284', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celiolemeoficial publicado: {'id': '17947247547369778'}",
+  "foto story FB: {'id': '122110620285531850'}",
+  "story FB: {'success': True, 'post_id': '1618217766025144'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/DfvmueKGjSG/",
+ "fim": "2026-11-15T01:32:03.684363Z"
+}
