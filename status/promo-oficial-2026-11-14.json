@@ -1,0 +1,12 @@
+{
+ "id": "promo-oficial-2026-11-14",
+ "tipo": "imagem",
+ "inicio": "2026-11-15T00:00:27.428083Z",
+ "etapas": [
+  "container story IG celiolemeoficial: {'id': '18001691901104284'}",
+  "processamento: {'id': '18001691901104284', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celiolemeoficial publicado: {'id': '18080861174711599'}",
+  "arquivos temporarios removidos"
+ ],
+ "fim": "2026-11-15T00:00:53.469714Z"
+}
