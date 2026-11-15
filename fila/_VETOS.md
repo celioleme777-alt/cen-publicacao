@@ -12,8 +12,8 @@
 
 ## Posts cancelados ou a refazer
 - 2026-11-03-armas-poderosas: REMOVIDO (cobra) em 14/11/2026
-- 2026-11-16-nova-criacao: BLOQUEADO ate trocar imagem (broto)
-- 2026-11-23-obra-prima: BLOQUEADO ate trocar imagem (Criacao de Adao)
+- 2026-11-16-nova-criacao: imagem trocada (borboleta), aprovada 15/11
+- 2026-11-23-obra-prima: imagens trocadas (luthier/ourives), aprovadas 15/11
 
 ## Regra
 - Todo pedido de cancelamento ou correcao entra aqui NA HORA e o post ganha "bloqueado" no post.json.
