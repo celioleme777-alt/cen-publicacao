@@ -18,3 +18,4 @@
 ## Regra
 - Todo pedido de cancelamento ou correcao entra aqui NA HORA e o post ganha "bloqueado" no post.json.
 - Publicador nao publica post com "bloqueado".
+- 2026-12-29-deus-coroa-o-meu-ano-com-bondade: story com pessegueiro (arvore) — TROCAR a imagem do story antes de 29/12 (anotado 15/11)
