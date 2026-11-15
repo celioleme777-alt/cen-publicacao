@@ -299,6 +299,9 @@ def main():
             print(f"{pj} ja tratado por outra rodada", flush=True)
             continue
         post = json.load(open(pj))
+        if post.get("bloqueado"):  # vetado (imagem/texto a refazer): nunca publica
+            print(f"{pj} BLOQUEADO: {post['bloqueado']}", flush=True)
+            continue
         quando = datetime.datetime.fromisoformat(post["publicar_em_utc"].replace("Z", ""))
         if quando <= agora:
             desde = post.get("somente_se_vazio_desde_utc")
