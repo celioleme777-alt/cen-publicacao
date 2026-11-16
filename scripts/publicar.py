@@ -1,5 +1,6 @@
 """Publicador CEN: publica itens da fila (fila/<id>/post.json) quando chega a hora.
 Segredo necessario: META_TOKEN (token do usuario do sistema publicador-cen)."""
+import re
 import json, os, sys, time, subprocess, glob, datetime, urllib.request, urllib.parse
 
 G = "https://graph.facebook.com/v21.0"
@@ -301,6 +302,12 @@ def main():
         post = json.load(open(pj))
         if post.get("bloqueado"):  # vetado (imagem/texto a refazer): nunca publica
             print(f"{pj} BLOQUEADO: {post['bloqueado']}", flush=True)
+            continue
+        # trava automatica: descricao da imagem com elemento vetado pelo Celio (fila/_VETOS.md)
+        vet = re.findall(r"cobra|serpente|v[ií]bora|veleiro|[aâ]ncora|[aá]rvore|ra[ií]z|ra[ií]zes|broto|arquiteto|terno",
+                         post.get("origem", ""), re.I)
+        if vet:
+            print(f"{pj} BLOQUEADO AUTOMATICO (veto na imagem: {set(vet)})", flush=True)
             continue
         quando = datetime.datetime.fromisoformat(post["publicar_em_utc"].replace("Z", ""))
         if quando <= agora:
