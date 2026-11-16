@@ -1,0 +1,26 @@
+{
+ "id": "2026-11-04-unidade-do-espirito",
+ "tipo": "imagem",
+ "inicio": "2026-11-16T01:00:21.585712Z",
+ "etapas": [
+  "container feed IG: {'id': '18099660935482228'}",
+  "processamento: {'id': '18099660935482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18058228274807631'}",
+  "convite aceito em celioleme: {'success': True}",
+  "convite aceito em celiolemeoficial: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18099661364482228'}",
+  "processamento: {'id': '18099661364482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '17979178140141508'}",
+  "container story IG celioleme: {'id': '18649629982036265'}",
+  "processamento: {'id': '18649629982036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18124583801473108'}",
+  "container story IG celiolemeoficial: {'id': '18001867446104284'}",
+  "processamento: {'id': '18001867446104284', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celiolemeoficial publicado: {'id': '18025536638949274'}",
+  "foto story FB: {'id': '122110919961531850'}",
+  "story FB: {'success': True, 'post_id': '3415326698774258'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/DfyIFZkH4uM/",
+ "fim": "2026-11-16T01:02:06.192534Z"
+}
