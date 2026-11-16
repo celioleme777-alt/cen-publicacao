@@ -21,3 +21,4 @@
 - 2026-12-29-deus-coroa-o-meu-ano-com-bondade: story com pessegueiro (arvore) — TROCAR a imagem do story antes de 29/12 (anotado 15/11)
 - 15/11: @celiolemeoficial recebe SO os Reels (videos semanais). Posts de imagem sem oficial (colab e stories). Promos do oficial bloqueadas ate o Celio confirmar.
 - 15/11: 6 promos do oficial canceladas pelo Celio (movidas para cancelados/). Oficial: so Reels.
+- 16/11: Celio pediu de volta a divulgacao do CEN, SEMANAL, no @celioleme e @celiolemeoficial (feed + stories). Fila: promo-semanal-* quartas 21h, conta oficial + collab celioleme, stories nos dois. (A regra 'oficial so Reels' vale para os posts diarios.)
