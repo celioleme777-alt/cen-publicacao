@@ -20,3 +20,4 @@
 - Publicador nao publica post com "bloqueado".
 - 2026-12-29-deus-coroa-o-meu-ano-com-bondade: story com pessegueiro (arvore) — TROCAR a imagem do story antes de 29/12 (anotado 15/11)
 - 15/11: @celiolemeoficial recebe SO os Reels (videos semanais). Posts de imagem sem oficial (colab e stories). Promos do oficial bloqueadas ate o Celio confirmar.
+- 15/11: 6 promos do oficial canceladas pelo Celio (movidas para cancelados/). Oficial: so Reels.
