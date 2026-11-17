@@ -1,0 +1,22 @@
+{
+ "id": "2026-11-07-dna-da-prosperidade",
+ "tipo": "imagem",
+ "inicio": "2026-11-17T01:00:23.372194Z",
+ "etapas": [
+  "container feed IG: {'id': '18099895397482228'}",
+  "processamento: {'id': '18099895397482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18489364114113264'}",
+  "convite aceito em celioleme: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18099895496482228'}",
+  "processamento: {'id': '18099895496482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '18137375464707966'}",
+  "container story IG celioleme: {'id': '18650085964036265'}",
+  "processamento: {'id': '18650085964036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18169127173435067'}",
+  "foto story FB: {'id': '122111247873531850'}",
+  "story FB: {'success': True, 'post_id': '2040051386659354'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/Df0s4lRGt3S/",
+ "fim": "2026-11-17T01:01:47.938294Z"
+}
