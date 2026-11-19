@@ -1,0 +1,22 @@
+{
+ "id": "2026-11-16-nova-criacao",
+ "tipo": "imagem",
+ "inicio": "2026-11-19T01:00:22.346483Z",
+ "etapas": [
+  "container feed IG: {'id': '18100275530482228'}",
+  "processamento: {'id': '18100275530482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18041109080814763'}",
+  "convite aceito em celioleme: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18100275602482228'}",
+  "processamento: {'id': '18100275602482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '17899169454415219'}",
+  "container story IG celioleme: {'id': '18650715571036265'}",
+  "processamento: {'id': '18650715571036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18222470350356901'}",
+  "foto story FB: {'id': '122111875803531850'}",
+  "story FB: {'success': True, 'post_id': '1465861955065969'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/Df52eDrF9ox/",
+ "fim": "2026-11-19T01:01:32.498078Z"
+}
