@@ -1,0 +1,22 @@
+{
+ "id": "2026-11-20-tudo-posso-v2",
+ "tipo": "imagem",
+ "inicio": "2026-11-20T12:14:03.669532Z",
+ "etapas": [
+  "container feed IG: {'id': '18100533005482228'}",
+  "processamento: {'id': '18100533005482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18026647367946153'}",
+  "convite aceito em celioleme: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18100533065482228'}",
+  "processamento: {'id': '18100533065482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '17967200604218401'}",
+  "container story IG celioleme: {'id': '18651131935036265'}",
+  "processamento: {'id': '18651131935036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18476486521138999'}",
+  "foto story FB: {'id': '122112384189531850'}",
+  "story FB: {'success': True, 'post_id': '1168386909049827'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/Df9oXNlFYzr/",
+ "fim": "2026-11-20T12:15:18.915107Z"
+}
