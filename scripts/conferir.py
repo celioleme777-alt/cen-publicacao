@@ -21,6 +21,11 @@ rel = {"dia": str(dia), "verificado_utc": agora.isoformat() + "Z", "itens": {}, 
 for nome, i in IG.items():
     feed = [m for m in api("GET", f"{i}/media", fields="timestamp", limit=5).get("data", []) if ts(m["timestamp"]) >= desde]
     st = [m for m in api("GET", f"{i}/stories", fields="timestamp,media_type,permalink").get("data", []) if ts(m["timestamp"]) >= desde]
+    if not feed and nome == "celioleme":  # post em colaboracao nao aparece em /media do colaborador: confere o convite no post da CEN
+        for m in api("GET", f"{IG['cristoemnoscelioleme']}/media", fields="timestamp", limit=5).get("data", []):
+            if ts(m["timestamp"]) >= desde and any(c.get("username") == "celioleme" and c.get("invite_status") == "Accepted"
+                                                   for c in api("GET", f"{m['id']}/collaborators").get("data", [])):
+                feed = [m]
     rel["itens"][f"ig_{nome}_feed"] = bool(feed); rel["itens"][f"ig_{nome}_story"] = bool(st)
     # a esteira nunca publica story em video: video em story = repost indevido (ex.: Reel republicado)
     vid = [{"hora": m["timestamp"], "link": m.get("permalink", "")} for m in st if m.get("media_type") == "VIDEO"]
