@@ -1,0 +1,22 @@
+{
+ "id": "2026-11-21-graca-ensina-santidade",
+ "tipo": "imagem",
+ "inicio": "2026-11-22T01:00:23.076049Z",
+ "etapas": [
+  "container feed IG: {'id': '18100827719482228'}",
+  "processamento: {'id': '18100827719482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18091899359274092'}",
+  "convite aceito em celioleme: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18100827776482228'}",
+  "processamento: {'id': '18100827776482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '18070748213524824'}",
+  "container story IG celioleme: {'id': '18651671473036265'}",
+  "processamento: {'id': '18651671473036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18240503116319852'}",
+  "foto story FB: {'id': '122112915129531850'}",
+  "story FB: {'success': True, 'post_id': '1155540110560479'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/DgBk2zOkn5Z/",
+ "fim": "2026-11-22T01:01:42.375348Z"
+}
