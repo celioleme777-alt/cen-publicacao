@@ -25,6 +25,14 @@
   "obs": "limite atingido no envio de 22/11"
  },
  {
+  "id": "B10b",
+  "reel": "REEL 12 - PORTA ABERTA",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Interior de um santuário de pedra colossal, escuro e solene, iluminado apenas por uma luz fria vinda de aberturas altas no teto. No centro, um véu monumental de tecido muito espesso e pesado, com dezenas de metros de altura, bordado em azul, púrpura e carmesim, vai do teto ao chão. De repente o véu se rasga com violência de cima para baixo, num único rasgo; o piso treme, pequenas pedras caem das paredes, e uma luz branca intensíssima irrompe pelo rasgo e inunda o santuário. Câmera baixa, fixa, levemente tremendo com o impacto. Sem pessoas, sem rosto, sem texto, sem velas, sem candelabros, sem fogo, sem chamas, sem plantas, sem névoa, sem fumaça. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura."
+ },
+ {
   "id": "T01",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Macro extremo do mecanismo de um relógio de pulso mecânico de luxo: engrenagens douradas girando, o ponteiro avançando, luz quente rasante deslizando pelas peças. Câmera se aproximando lentamente. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
