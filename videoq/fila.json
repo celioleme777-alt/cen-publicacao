@@ -18,11 +18,27 @@
  {
   "id": "B03b",
   "reel": "REEL 12 - PORTA ABERTA",
-  "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Close de mãos masculinas abrindo uma Bíblia moderna de capa de couro preta sobre uma mesa de madeira escura, num ambiente contemporâneo escuro e limpo. Um feixe de luz branca e dourada vindo de cima cai sobre as páginas, que brilham. Ar totalmente limpo, sem partículas, sem vapor. Câmera lenta, aproximando devagar. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Ambiente moderno, sofisticado e elegante, à noite: mármore escuro, vidro e metal escovado. Sobre um púlpito minimalista de vidro, uma Bíblia de couro preto impecável; mãos masculinas de camisa clara a abrem devagar e um feixe de luz branca e dourada desce do alto sobre as páginas, que brilham. Câmera lenta, se aproximando. Grandioso e refinado. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
   "status": "pendente",
   "conv": null,
   "enviado": null,
-  "obs": "limite atingido no envio de 22/11"
+  "obs": "refeito 22/11: Celio vetou mesa de madeira (pobre); quer elegante"
+ },
+ {
+  "id": "B04b",
+  "reel": "REEL 12 - PORTA ABERTA",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Uma pequena igreja moderna e elegante à noite: auditório intimista de concreto aparente e madeira clara, com uma cruz simples de luz embutida na parede do fundo e um palco baixo. Umas doze pessoas de roupas casuais, em poucas fileiras de cadeiras, de pé, de costas para a câmera, com as mãos levantadas em adoração; uma luz dourada desce do alto sobre elas. A câmera sobe devagar por trás. Fica claro que é uma igreja pequena, cheia de fé. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo."
+ },
+ {
+  "id": "A07b",
+  "reel": "REEL 12 - PORTA ABERTA",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Close elegante: a mão de um homem de camisa clara segura uma chave moderna de design minimalista, dourada e brilhante, e a gira na fechadura de uma porta alta de aço escovado num corredor sofisticado de mármore escuro; a porta se destrava e uma fresta de luz branca e dourada se abre, iluminando a mão. Câmera lenta. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo."
  },
  {
   "id": "B10b",
