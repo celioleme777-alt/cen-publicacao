@@ -3,7 +3,7 @@
   "id": "B12",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Noite de chuva numa praça moderna entre arranha-céus. Um homem de camisa clara encharcada, que estava ajoelhado no chão molhado, se levanta devagar, de costas para a câmera; diante dele uma porta alta de luz branca e dourada se abre no ar, recortando sua silhueta e iluminando a chuva como fios de ouro. Câmera baixa atrás dele. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "6108732ceef55fb2",
   "enviado": "2026-11-22 01:03"
  },
@@ -11,7 +11,7 @@
   "id": "B13",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem de camisa clara, de costas, atravessa uma porta de luz e surge no alto de um terraço altíssimo, diante de um nascer do sol imenso sobre uma metrópole moderna; a câmera se eleva atrás dele revelando a cidade inteira dourada. Sensação de liberdade e passagem aberta. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "b406a7914c8be81a",
   "enviado": "2026-11-22 01:05"
  },
@@ -19,15 +19,16 @@
   "id": "B03b",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Close de mãos masculinas abrindo uma Bíblia moderna de capa de couro preta sobre uma mesa de madeira escura, num ambiente contemporâneo escuro e limpo. Um feixe de luz branca e dourada vindo de cima cai sobre as páginas, que brilham. Ar totalmente limpo, sem partículas, sem vapor. Câmera lenta, aproximando devagar. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
-  "conv": "b6d0e5b72396cf85",
-  "enviado": "2026-11-22 01:07"
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "obs": "limite atingido no envio de 22/11"
  },
  {
   "id": "T01",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Macro extremo do mecanismo de um relógio de pulso mecânico de luxo: engrenagens douradas girando, o ponteiro avançando, luz quente rasante deslizando pelas peças. Câmera se aproximando lentamente. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "b42b8f76fc5b4d69",
   "enviado": "2026-11-22 06:03"
  },
@@ -35,7 +36,7 @@
   "id": "T02",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Duas mãos masculinas abertas em concha, palmas para cima, num fundo escuro e moderno; um feixe de luz dourada desce do alto e repousa sobre elas. Câmera lenta, aproximando. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "d754a1ba5e0f1507",
   "enviado": "2026-11-22 06:04"
  },
@@ -43,7 +44,7 @@
   "id": "T03",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um rapaz de uns 17 anos, de camiseta simples, visto de cima e de costas, no fundo de um poço de concreto profundo e seco, olhando para o círculo de céu lá no alto; na borda, silhuetas de outros rapazes se afastam e somem. Clima de abandono. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "6a61f501d86c9f4e",
   "enviado": "2026-11-22 06:05"
  },
@@ -51,7 +52,7 @@
   "id": "T04",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Corredor de uma prisão moderna de concreto e aço, luz fria. Uma porta de cela de aço se fecha com força; pela pequena janela da porta vemos um jovem de costas dentro da cela. Câmera fixa, impacto. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "1087c21f1c45f3dc",
   "enviado": "2026-11-22 06:05"
  },
@@ -59,7 +60,7 @@
   "id": "T05",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Time-lapse dentro de uma cela moderna e limpa: um jovem sentado na cama, de costas, imóvel, enquanto a luz que entra por uma janela alta gradeada percorre a parede várias vezes, dias e noites se alternando rapidamente. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "3d438a35333e65da",
   "enviado": "2026-11-22 06:06"
  },
@@ -67,7 +68,7 @@
   "id": "T06",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. A porta de aço de uma cela se abre de repente e uma luz forte invade o ambiente; dois agentes uniformizados fazem sinal com urgência e o jovem, de costas, se levanta e caminha para a luz. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "137a0476f2c6f2a9",
   "enviado": "2026-11-22 11:02"
  },
@@ -75,7 +76,7 @@
   "id": "T07",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem jovem de camisa social clara impecável, sem paletó, caminha de costas por um salão monumental de mármore e vidro de um palácio de governo moderno; dezenas de pessoas bem vestidas se levantam e abrem caminho enquanto ele passa. Grandeza e honra. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "7a65d8c8ef37e67f",
   "enviado": "2026-11-22 11:03"
  },
@@ -83,23 +84,32 @@
   "id": "T08",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Numa sala ampla com luz dourada do fim de tarde, dois homens adultos se abraçam com força, emocionados, um deles de costas para a câmera; reconciliação de irmãos. Câmera lenta girando ao redor. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "descartada",
   "conv": "c7e9ca9b15581b2f",
   "enviado": "2026-11-22 11:05"
+ },
+ {
+  "id": "T08b",
+  "reel": "REEL 13 - MEUS TEMPOS",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Plano aberto de uma sala ampla com janelões e luz dourada do fim de tarde: ao fundo, dois homens adultos se abraçam com força, emocionados, vistos de longe e em silhueta contra a janela, um deles de costas para a câmera. Reconciliação de irmãos. Câmera lenta, se aproximando devagar, sem chegar perto. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura."
  },
  {
   "id": "T09",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Noite. Uma mulher sentada sozinha numa sala de espera de hospital moderno, de perfil e de costas, olhando para portas automáticas fechadas; um relógio digital na parede marca a hora. Clima de espera longa. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
-  "conv": "95e02cb913faf8c8",
-  "enviado": "2026-11-22 11:07"
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "obs": "limite atingido no envio de 22/11"
  },
  {
   "id": "T10",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Time-lapse noturno: estrelas girando em arcos no céu acima de uma metrópole iluminada, vista do alto de um terraço; a câmera desliza lentamente. Grandeza do universo sobre a cidade. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "05cd91c357d62e8c",
   "enviado": "2026-11-22 16:02"
  },
@@ -107,7 +117,7 @@
   "id": "T11",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Ao nascer do sol, um homem de camisa clara, de costas, de pé no alto de um terraço altíssimo, sereno, olhando o horizonte dourado da cidade; o relógio no pulso dele reflete o sol. Câmera se afastando devagar. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "9ee9abc389d2633b",
   "enviado": "2026-11-22 16:06"
  },
@@ -115,7 +125,7 @@
   "id": "R01",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem de camisa clara caminha com firmeza, de costas, por um corredor escuro; a cada passo dele, as sombras das paredes recuam e uma luz dourada o envolve. Câmera atrás dele. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "51047c3dd18a210c",
   "enviado": "2026-11-22 16:07"
  },
@@ -123,15 +133,16 @@
   "id": "R02",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Close de mãos masculinas fechando com firmeza uma Bíblia de capa preta e erguendo-a junto ao peito, num ambiente escuro com um feixe de luz lateral. Determinação. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
-  "conv": "37e446315b9354f7",
-  "enviado": "2026-11-22 16:08"
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "obs": "limite atingido no envio de 22/11"
  },
  {
   "id": "R03",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem ajoelhado sozinho no centro de um grande auditório moderno vazio, cabeça baixa, de costas para a câmera; um feixe de luz desce do teto sobre ele. Rendição e submissão. Câmera se elevando. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "28957472b7619bcb",
   "enviado": "2026-11-22 21:03"
  },
@@ -139,15 +150,23 @@
   "id": "R04",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Noite de chuva torrencial numa rua moderna. Um homem de camisa clara caminha de costas sob um feixe de luz dourada que forma uma cobertura sobre ele: a chuva cai forte ao redor, mas desvia e não o atinge. Câmera atrás dele. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "descartada",
   "conv": "477ad23971f4fd15",
   "enviado": "2026-11-22 21:05"
+ },
+ {
+  "id": "R04b",
+  "reel": "REEL 14 - RESISTO AO DIABO",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Noite de chuva torrencial numa avenida moderna entre arranha-céus. Um homem de camisa clara encharcada caminha firme, de costas, sem se encolher, enquanto um feixe de luz dourada vindo do alto o acompanha e ilumina a chuva ao redor dele como fios de ouro. Nenhum objeto sobre ele. Câmera atrás dele, baixa. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura."
  },
  {
   "id": "R05",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Vista aérea: um homem de roupa clara e simples caminha sozinho por um deserto imenso de dunas de areia ao amanhecer, pequenino na paisagem, deixando pegadas. Sem montanhas no horizonte, só dunas. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "ebf98c1cce96bcfa",
   "enviado": "2026-11-22 21:07"
  },
@@ -155,7 +174,7 @@
   "id": "R06",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem de roupa clara, de costas, sentado na areia de um deserto de dunas sob o sol escaldante do meio-dia, cansado e com fome, o calor ondulando o ar. Câmera lenta. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "fe743c16e487e988",
   "enviado": "2026-11-22 21:08"
  },
@@ -163,7 +182,7 @@
   "id": "R07",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem de camisa clara, de costas, parado num corredor escuro e moderno diante de três portas iluminadas e tentadoras: uma com luz de banquete, uma com luz de palco e flashes, uma com luz de ouro e poder. Clima de tentação. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "2acde7cb1233c8ff",
   "enviado": "2026-11-22 21:08"
  },
