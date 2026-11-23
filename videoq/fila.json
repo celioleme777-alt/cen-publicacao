@@ -157,9 +157,9 @@
   "id": "R02",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Close de mãos masculinas fechando com firmeza uma Bíblia de capa preta e erguendo-a junto ao peito, num ambiente escuro com um feixe de luz lateral. Determinação. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null,
+  "status": "enviado",
+  "conv": "83e23f39560619db",
+  "enviado": "2026-11-23 12:11",
   "obs": "limite atingido no envio de 22/11"
  },
  {
