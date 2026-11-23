@@ -1,0 +1,22 @@
+{
+ "id": "2026-11-22-coroa-da-vida",
+ "tipo": "imagem",
+ "inicio": "2026-11-23T01:00:21.535374Z",
+ "etapas": [
+  "container feed IG: {'id': '18101033687482228'}",
+  "processamento: {'id': '18101033687482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18131743132854251'}",
+  "convite aceito em celioleme: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18101033768482228'}",
+  "processamento: {'id': '18101033768482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '17968554699226647'}",
+  "container story IG celioleme: {'id': '18652049854036265'}",
+  "processamento: {'id': '18652049854036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18390489070226199'}",
+  "foto story FB: {'id': '122113195191531850'}",
+  "story FB: {'success': True, 'post_id': '1159260639929304'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/DgEJpeCiev_/",
+ "fim": "2026-11-23T01:01:36.777925Z"
+}
