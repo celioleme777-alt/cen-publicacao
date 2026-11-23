@@ -181,9 +181,9 @@
  {
   "id": "R04b",
   "reel": "REEL 14 - RESISTO AO DIABO",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null,
+  "status": "enviado",
+  "conv": "7f31858f06a53901",
+  "enviado": "2026-11-23 14:11",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Noite de chuva torrencial numa avenida moderna entre arranha-céus. Um homem de camisa clara encharcada caminha firme, de costas, sem se encolher, enquanto um feixe de luz dourada vindo do alto o acompanha e ilumina a chuva ao redor dele como fios de ouro. Nenhum objeto sobre ele. Câmera atrás dele, baixa. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura."
  },
  {
