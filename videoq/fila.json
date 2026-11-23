@@ -115,18 +115,18 @@
  {
   "id": "T08b",
   "reel": "REEL 13 - MEUS TEMPOS",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null,
+  "status": "enviado",
+  "conv": "8bb5b2a6ce48148d",
+  "enviado": "2026-11-23 07:10",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Plano aberto de uma sala ampla com janelões e luz dourada do fim de tarde: ao fundo, dois homens adultos se abraçam com força, emocionados, vistos de longe e em silhueta contra a janela, um deles de costas para a câmera. Reconciliação de irmãos. Câmera lenta, se aproximando devagar, sem chegar perto. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura."
  },
  {
   "id": "T09",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Noite. Uma mulher sentada sozinha numa sala de espera de hospital moderno, de perfil e de costas, olhando para portas automáticas fechadas; um relógio digital na parede marca a hora. Clima de espera longa. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null,
+  "status": "enviado",
+  "conv": "14906489ada912d7",
+  "enviado": "2026-11-23 07:12",
   "obs": "limite atingido no envio de 22/11"
  },
  {
