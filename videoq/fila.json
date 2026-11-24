@@ -239,7 +239,7 @@
   "id": "B04i",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. À noite, um salão térreo pequeno e simples, moderno e bem cuidado, de paredes claras lisas, com uma grande porta de vidro e uma vitrine de vidro na frente, sem nenhuma cruz nem letreiro, numa rua comum de bairro de uma cidade grande, entre casas e pequenos comércios fechados, com o asfalto molhado; ao fundo, bem longe, o skyline iluminado de arranha-céus. A porta de vidro está aberta e uma luz dourada e quente se derrama na calçada; lá dentro, umas doze pessoas de roupas casuais, de pé e de costas, adorando com as mãos levantadas. A câmera vem descendo pela rua vazia e se aproxima devagar da porta aberta. É o único lugar aceso e vivo da rua. Sem cruz em lugar nenhum, sem símbolos religiosos, sem rostos visíveis, sem texto, sem letreiros, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "2d1e99fcd7c7bd58",
   "enviado": "2026-11-24 18:10",
   "obs": "24/11 Celio: casinha numa rua normal, as duas cenas no mesmo lugar | duplicata enviada pela rotina 24/11 18:1x: conv 524f47144a469d76"
@@ -248,16 +248,16 @@
   "id": "B04j",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. À noite, um salão térreo pequeno e simples, moderno e bem cuidado, de paredes claras lisas, com uma grande porta de vidro e uma vitrine de vidro na frente, sem nenhuma cruz nem letreiro, numa rua comum de bairro de uma cidade grande, entre casas e pequenos comércios fechados, com o asfalto molhado; ao fundo, bem longe, o skyline iluminado de arranha-céus. A porta de vidro está aberta e uma luz dourada e quente se derrama na calçada; lá dentro, umas doze pessoas de roupas casuais, de pé e de costas, adorando com as mãos levantadas. A câmera vem descendo pela rua vazia e se aproxima devagar da porta aberta. É o único lugar aceso e vivo da rua. Sem cruz em lugar nenhum, sem símbolos religiosos, sem rostos visíveis, sem texto, sem letreiros, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
-  "status": "enviado",
+  "status": "descartada",
   "conv": "1a66448245fbb593",
   "enviado": "2026-11-24 18:13",
-  "obs": "24/11 Celio: casinha numa rua normal, as duas cenas no mesmo lugar | duplicata enviada pela rotina 24/11 18:1x: conv ad29194e1d7cb7cb"
+  "obs": "24/11 Celio: casinha numa rua normal, as duas cenas no mesmo lugar | duplicata enviada pela rotina 24/11 18:1x: conv ad29194e1d7cb7cb | vasos de planta"
  },
  {
   "id": "B05e",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Interior de um salão térreo pequeno e simples, moderno e bem cuidado, de paredes claras lisas, com uma grande porta de vidro e uma vitrine de vidro na frente, sem nenhuma cruz nem letreiro, numa rua comum de bairro de uma cidade grande, entre casas e pequenos comércios fechados, com o asfalto molhado; ao fundo, bem longe, o skyline iluminado de arranha-céus, à noite: um ambiente pequeno, de piso de madeira clara e luz dourada e quente vindo do teto. Umas doze pessoas de roupas casuais em pé num círculo, de mãos dadas e cabeças inclinadas em oração, vistas de cima e um pouco de lado; pela vitrine de vidro se vê a rua molhada e, ao longe, os arranha-céus iluminados. A câmera gira devagar por cima do círculo. Grupo pequeno, simples e cheio de fé. Sem cruz em lugar nenhum, sem símbolos religiosos, sem rostos visíveis, sem texto, sem letreiros, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "f9b53ab3b47c11b3",
   "enviado": "2026-11-24 18:11",
   "obs": "24/11 Celio: casinha numa rua normal, as duas cenas no mesmo lugar"
