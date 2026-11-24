@@ -185,10 +185,10 @@
   "id": "B04c",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Tomada aérea noturna de uma metrópole moderna: arranha-céus enormes e iluminados dominam a cena. A câmera desce devagar entre as torres até um prédio pequeno e baixo entre elas, onde uma única janela grande está acesa com luz dourada e quente; pela janela, um pequeno grupo de umas oito pessoas, de costas, com as mãos levantadas em adoração. O contraste mostra que é uma igreja pequena, sem riqueza nem influência, mas cheia de luz. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
-  "status": "aprovada",
+  "status": "descartada",
   "conv": "a56eb1dd8b2ad8e3",
   "enviado": "2026-11-23 22:15",
-  "obs": "refeito 23/11: Celio — igreja de concreto 'sofrível'"
+  "obs": "refeito 23/11: Celio — igreja de concreto 'sofrível' | 24/11 Celio: \"igreja dentro de um prédio, não entendi\""
  },
  {
   "id": "B04d",
@@ -203,19 +203,19 @@
   "id": "B05c",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Num ambiente moderno e elegante à noite, um pequeno grupo de seis pessoas de roupas casuais sentadas em círculo, de mãos dadas, cabeças inclinadas em oração, vistas de cima e um pouco de lado. No centro do círculo, uma Bíblia aberta sobre uma mesa baixa de vidro. Uma luz dourada suave desce do alto sobre o círculo, enquanto o resto da sala fica na penumbra. Câmera lenta girando devagar por cima. Pequeno, frágil e cheio de fé. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
-  "status": "descartada",
+  "status": "pendente",
   "conv": null,
   "enviado": null,
-  "obs": "refeito 23/11: Celio — três pessoas no loft 'sem entender' (Ela era uma igreja de pouca força) | desnecessária: B04d cobriu o trecho"
+  "obs": "refeito 23/11: Celio — três pessoas no loft 'sem entender' (Ela era uma igreja de pouca força) | desnecessária: B04d cobriu o trecho | reativada 24/11: B04d passa ao trecho \"Repare...\", B05 ao \"Ela era uma igreja de pouca força\""
  },
  {
   "id": "B05d",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Close de várias mãos de pessoas diferentes, de roupas casuais, se juntando umas sobre as outras no centro de um círculo, sobre uma Bíblia aberta numa mesa de vidro, num ambiente moderno à noite. Uma luz dourada desce do alto sobre as mãos unidas. Câmera lenta, se aproximando. União e fé de um grupo pequeno. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
-  "status": "descartada",
+  "status": "pendente",
   "conv": null,
   "enviado": null,
-  "obs": "refeito 23/11: Celio — três pessoas no loft 'sem entender' (Ela era uma igreja de pouca força) | desnecessária: B04d cobriu o trecho"
+  "obs": "refeito 23/11: Celio — três pessoas no loft 'sem entender' (Ela era uma igreja de pouca força) | desnecessária: B04d cobriu o trecho | reativada 24/11: B04d passa ao trecho \"Repare...\", B05 ao \"Ela era uma igreja de pouca força\""
  },
  {
   "id": "R02b",
