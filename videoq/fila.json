@@ -188,7 +188,7 @@
   "status": "descartada",
   "conv": "a56eb1dd8b2ad8e3",
   "enviado": "2026-11-23 22:15",
-  "obs": "refeito 23/11: Celio — igreja de concreto 'sofrível' | 24/11 Celio: \"igreja dentro de um prédio, não entendi\""
+  "obs": "refeito 23/11: Celio — igreja de concreto 'sofrível' | 24/11 Celio: \"igreja dentro de um prédio, não entendi\" | 24/11 Celio: igreja dentro de apartamento, não entendeu"
  },
  {
   "id": "B04d",
@@ -198,6 +198,24 @@
   "conv": "95b6c261881e2030",
   "enviado": "2026-11-23 22:17",
   "obs": "refeito 23/11: Celio — igreja de concreto 'sofrível' | usada no trecho 'Ela era uma igreja de pouca força' (substitui B05_PORTA_LOFT)"
+ },
+ {
+  "id": "B04e",
+  "reel": "REEL 12 - PORTA ABERTA",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. À noite, numa avenida de uma metrópole moderna, a câmera começa no alto mostrando arranha-céus gigantes de vidro, iluminados, e desce devagar até o nível da rua. Ali, espremida entre duas torres enormes, há uma pequena igreja térrea e moderna, claramente uma igreja: fachada simples de vidro, uma cruz iluminada acima da porta, e as portas de vidro abertas deixando sair uma luz dourada e quente. Lá dentro se vê um pequeno grupo de pessoas de pé, de costas, adorando com as mãos levantadas. A igreja parece minúscula perto das torres, mas é o único lugar com luz quente na rua. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "obs": "refeito 24/11: Celio não entendeu B04c (igreja parecia apartamento)"
+ },
+ {
+  "id": "B04f",
+  "reel": "REEL 12 - PORTA ABERTA",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Plano ao nível da rua, à noite, numa cidade grande e moderna: carros passando desfocados em primeiro plano, e do outro lado da rua uma pequena igreja moderna de fachada de vidro, com uma cruz iluminada na parede, entre dois edifícios corporativos imensos que somem para fora do quadro. As portas estão abertas e a luz dourada de dentro se derrama na calçada; dentro, umas quinze pessoas de costas, em pé, adorando. A câmera atravessa a rua devagar em direção à porta aberta. Contraste claro: uma igreja pequena, simples e sem poder diante dos gigantes da cidade, mas cheia de luz. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "obs": "refeito 24/11: Celio não entendeu B04c (igreja parecia apartamento)"
  },
  {
   "id": "B05c",
