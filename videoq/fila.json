@@ -203,10 +203,10 @@
   "id": "B04e",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. À noite, numa avenida de uma metrópole moderna, a câmera começa no alto mostrando arranha-céus gigantes de vidro, iluminados, e desce devagar até o nível da rua. Ali, espremida entre duas torres enormes, há uma pequena igreja térrea e moderna, claramente uma igreja: fachada simples de vidro, uma cruz iluminada acima da porta, e as portas de vidro abertas deixando sair uma luz dourada e quente. Lá dentro se vê um pequeno grupo de pessoas de pé, de costas, adorando com as mãos levantadas. A igreja parece minúscula perto das torres, mas é o único lugar com luz quente na rua. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "e236b048493c5d99",
   "enviado": "2026-11-24 16:20",
-  "obs": "refeito 24/11: Celio não entendeu B04c (igreja parecia apartamento)"
+  "obs": "refeito 24/11: Celio não entendeu B04c (igreja parecia apartamento) | aprovada com ressalva: tirar a cruz"
  },
  {
   "id": "B04f",
@@ -216,6 +216,24 @@
   "conv": "1e201f6fee27aed1",
   "enviado": "2026-11-24 16:22",
   "obs": "refeito 24/11: Celio não entendeu B04c (igreja parecia apartamento)"
+ },
+ {
+  "id": "B04g",
+  "reel": "REEL 12 - PORTA ABERTA",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. À noite, numa avenida de uma metrópole moderna, a câmera começa no alto mostrando arranha-céus gigantes de vidro, iluminados, e desce devagar até o nível da rua. Ali, espremida entre duas torres enormes, há uma pequena construção térrea e moderna de vidro, com telhado de duas águas, totalmente lisa por fora, sem nenhuma cruz nem símbolo; as portas de vidro abertas deixam sair uma luz dourada e quente. Lá dentro se vê um pequeno grupo de pessoas de pé, de costas, adorando com as mãos levantadas, diante de uma parede clara iluminada, sem cruz. A construção parece minúscula perto das torres, mas é o único lugar com luz quente na rua. Sem cruz em lugar nenhum, sem símbolos religiosos, sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "obs": "24/11 Celio: B04e ok, mas tirar a cruz ('muito batista')"
+ },
+ {
+  "id": "B04h",
+  "reel": "REEL 12 - PORTA ABERTA",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. À noite, numa avenida de uma metrópole moderna, a câmera começa no alto mostrando arranha-céus gigantes de vidro, iluminados, e desce devagar até o nível da rua. Ali, espremida entre duas torres enormes, há uma pequena construção térrea e moderna de vidro, com telhado de duas águas, totalmente lisa por fora, sem nenhuma cruz nem símbolo; as portas de vidro abertas deixam sair uma luz dourada e quente. Lá dentro se vê um pequeno grupo de pessoas de pé, de costas, adorando com as mãos levantadas, diante de uma parede clara iluminada, sem cruz. A construção parece minúscula perto das torres, mas é o único lugar com luz quente na rua. Sem cruz em lugar nenhum, sem símbolos religiosos, sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null,
+  "obs": "24/11 Celio: B04e ok, mas tirar a cruz ('muito batista')"
  },
  {
   "id": "B05c",
