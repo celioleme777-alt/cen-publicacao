@@ -7,3 +7,4 @@ Atualizado 23/11/2026.
 - Regras de imagem: nada rústico/antigo/"pobrinho"; sem velas, árvores, plantas, ternos, rosto em close; épico moderno elegante.
 - Porta aberta v6 (24/11 madrugada): mesmo vídeo da v5; áudio com 28 estalos de "p/b" no microfone removidos (corte <200 Hz por 75 ms em cada estalo, detectados no áudio de voz original). Gravada em REELS\REEL 12 em 24/11. file_uuid fad56cc3-03a2-4a2c-b71f-b58d610d9b62.
 - Lição: gravações do Celio têm estalos de microfone nas consoantes "p/b" (soam como batida na mesa). Aplicar a remoção de estalos em todo reel novo antes de entregar.
+- 24/11: cifragem — o workflow agora cifra no próprio GitHub Actions qualquer mídia nova enviada sem cifra (feed.jpg, story.jpg, capa.jpg, video.mp4, story*.mp4) antes de publicar. Itens novos podem ir para fila/ em arquivo comum. Recomendação aplicada (opção 1), Celio havia delegado escolhas técnicas.
