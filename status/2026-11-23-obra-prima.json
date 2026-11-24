@@ -1,0 +1,22 @@
+{
+ "id": "2026-11-23-obra-prima",
+ "tipo": "imagem",
+ "inicio": "2026-11-24T01:00:24.540761Z",
+ "etapas": [
+  "container feed IG: {'id': '18101228681482228'}",
+  "processamento: {'id': '18101228681482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18421871446082526'}",
+  "convite aceito em celioleme: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18101228738482228'}",
+  "processamento: {'id': '18101228738482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '18122821633976426'}",
+  "container story IG celioleme: {'id': '18652370749036265'}",
+  "processamento: {'id': '18652370749036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '17931337950436191'}",
+  "foto story FB: {'id': '122113494615531850'}",
+  "story FB: {'success': True, 'post_id': '1580905897092321'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/DgGuct6Fuu5/",
+ "fim": "2026-11-24T01:01:37.135270Z"
+}
