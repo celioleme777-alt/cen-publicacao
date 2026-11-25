@@ -501,9 +501,9 @@
   "id": "S06",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Na porta de um hospital moderno, um homem recuperado sai caminhando com uma mochila, de costas, e é recebido com um abraço apertado pela esposa e pelos filhos. Luz do dia, emoção. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null
+  "status": "enviado",
+  "conv": "f9908fb89c3372fa",
+  "enviado": "2026-11-25 18:11"
  },
  {
   "id": "S07",
