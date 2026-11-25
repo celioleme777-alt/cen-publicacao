@@ -509,9 +509,9 @@
   "id": "S07",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Vista aérea noturna de uma metrópole iluminada; uma luz dourada desce do céu sobre a cidade como uma chuva de luz. Câmera descendo lentamente. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null
+  "status": "enviado",
+  "conv": "0485c0c60d5a65f9",
+  "enviado": "2026-11-25 19:11"
  },
  {
   "id": "S08",
