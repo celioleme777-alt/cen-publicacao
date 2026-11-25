@@ -10,3 +10,4 @@ Atualizado 23/11/2026.
 - 24/11: cifragem — o workflow agora cifra no próprio GitHub Actions qualquer mídia nova enviada sem cifra (feed.jpg, story.jpg, capa.jpg, video.mp4, story*.mp4) antes de publicar. Itens novos podem ir para fila/ em arquivo comum. Recomendação aplicada (opção 1), Celio havia delegado escolhas técnicas.
 - Porta aberta v8 (24/11): B04g (igreja de vidro sem cruz; Celio vetou cruz: 'muito batista') no lugar de B04e. splice8.py. Aguarda aprovação.
 - Porta aberta v9 (24/11): B04i (salão simples em rua comum, sem cruz) + B05e (mesmo salão por dentro, grupo em círculo). Pedido do Celio: casinha em rua normal, duas cenas no mesmo lugar. splice9.py. B05f ainda na fila como alternativa.
+- Porta aberta v10 (25/11 madrugada): B03e (Bíblia lida em casa, abajur, cidade à noite) + B04i + B05f (círculo de oração, sem vaso, rostos baixos). splice10.py. Aguarda aprovação.
