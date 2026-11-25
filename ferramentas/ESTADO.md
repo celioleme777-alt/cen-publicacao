@@ -11,3 +11,4 @@ Atualizado 23/11/2026.
 - Porta aberta v8 (24/11): B04g (igreja de vidro sem cruz; Celio vetou cruz: 'muito batista') no lugar de B04e. splice8.py. Aguarda aprovação.
 - Porta aberta v9 (24/11): B04i (salão simples em rua comum, sem cruz) + B05e (mesmo salão por dentro, grupo em círculo). Pedido do Celio: casinha em rua normal, duas cenas no mesmo lugar. splice9.py. B05f ainda na fila como alternativa.
 - Porta aberta v10 (25/11 madrugada): B03e (Bíblia lida em casa, abajur, cidade à noite) + B04i + B05f (círculo de oração, sem vaso, rostos baixos). splice10.py. Aguarda aprovação.
+- Meus tempos v1 (25/11): build_mt.py (gerador completo: cenas com deslocamento, xfade 0,5, legendas por palavra via faster-whisper com áudio em numpy, cartão final, trilha 0,30 com sidechain, silêncio antes da fala, remoção de estalos). Falta gravar no OneDrive (notebook suspenso) e aprovação.
