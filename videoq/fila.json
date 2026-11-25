@@ -310,9 +310,9 @@
  {
   "id": "R02b",
   "reel": "REEL 14 - RESISTO AO DIABO",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null,
+  "status": "enviado",
+  "conv": "e8a4b4aa0174a31e",
+  "enviado": "2026-11-25 04:10",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Ambiente moderno e sofisticado à noite, mármore escuro e vidro. Close de mãos masculinas de camisa clara fechando com firmeza uma Bíblia de couro preto impecável e erguendo-a junto ao peito; um feixe de luz lateral recorta as mãos e a capa. Determinação e autoridade. Câmera lenta. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo."
  },
  {
@@ -399,33 +399,33 @@
   "id": "R12",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem de camisa clara, de pé no parapeito do terraço de um arranha-céu, de costas, o vento forte na camisa, olhando a cidade ao entardecer, firme e vitorioso. Câmera aérea circulando. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null
+  "status": "enviado",
+  "conv": "491745d19e8fbc31",
+  "enviado": "2026-11-25 04:12"
  },
  {
   "id": "S01",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Numa cafeteria moderna e clara, dois amigos sentados à mesa; um deles, de costas para a câmera, fala com entusiasmo e gesticula, o outro ouve atento, de perfil. Luz de manhã pela vitrine. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null
+  "status": "enviado",
+  "conv": "78db39b4efa16c5e",
+  "enviado": "2026-11-25 04:13"
  },
  {
   "id": "S02",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Num loft moderno à noite, um pequeno grupo de pessoas de costas com as mãos levantadas; uma luz dourada intensa desce do alto e se derrama sobre elas como uma onda. Poder do Espírito. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null
+  "status": "enviado",
+  "conv": "a50e2d0137519460",
+  "enviado": "2026-11-25 04:15"
  },
  {
   "id": "S03",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Uma mulher jovem caminha confiante, de costas, por uma rua movimentada da cidade ao sol da manhã, com uma luz dourada suave envolvendo-a; as pessoas ao redor passam. Câmera acompanhando. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null
+  "status": "enviado",
+  "conv": "0429da37e00faefb",
+  "enviado": "2026-11-25 04:16"
  },
  {
   "id": "S04",
