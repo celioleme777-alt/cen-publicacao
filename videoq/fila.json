@@ -565,9 +565,9 @@
   "id": "G04",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Sobre o horizonte noturno de um deserto de dunas, uma estrela intensamente brilhante surge e cresce no céu, mais forte que todas as outras, iluminando as dunas. Câmera baixa. Sem montanhas, só dunas. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null
+  "status": "enviado",
+  "conv": "9adf78dc5587b860",
+  "enviado": "2026-11-26 09:10"
  },
  {
   "id": "G05",
