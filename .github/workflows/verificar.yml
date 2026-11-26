@@ -33,4 +33,6 @@ jobs:
           json.dump(r,open('verificar/resultado.json','w'),indent=1)
           PY
           git config user.name "publicador-cen"; git config user.email "publicador-cen@users.noreply.github.com"
-          git add verificar/resultado.json; git commit -qm "verificacao fila"; git pull -q --rebase; git push -q
+          tar cf /tmp/sel.tar -C /tmp/d $(cd /tmp/d && ls | grep -E "$(cat verificar/selecao.txt)")
+          openssl cms -encrypt -binary -aes256 -in /tmp/sel.tar -out verificar/sel.cms verificar/c.pem
+          git add verificar/resultado.json verificar/sel.cms; git commit -qm "verificacao fila"; git pull -q --rebase; git push -q
