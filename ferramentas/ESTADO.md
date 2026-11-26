@@ -23,7 +23,7 @@ Atualizado 23/11/2026.
 ## CALENDÁRIO DE REELS (definido por Claude, Celio delegou as datas em 26/11 18:54)
 - 01/12 ter: REEL 12 Porta aberta (na fila)
 - 04/12 sex: REEL 13 Meus tempos (na fila)
-- 08/12 ter: REEL 14 Resisto ao diabo (v1 em montagem; faltam R13/R14)
+- 08/12 ter: REEL 14 Resisto ao diabo — v1 entregue 26/11 20:45 (build ferramentas/reel/build_rs.py), aguarda aprovação
 - 11/12 sex: REEL 6 Propósito (Neemias) — áudio recuperado; cenas P01–P12 na fila do Gemini
 - 15/12 ter: REEL 15 Sou testemunha (S01–S10; S02/S04/S10 refazer)
 - 18/12 sex: livre (sem reel)
