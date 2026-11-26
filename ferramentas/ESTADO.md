@@ -16,4 +16,4 @@ Atualizado 23/11/2026.
 - Cuidado: conferir.py republica story faltante entre 01:20Z e 03:00Z a partir do story.jpg.enc do item do dia; para trocar story, renomear o antigo.
 - 26/11: story de 25/11 trocado de novo a pedido do Celio: imagem do feed estendida para 9:16 com Adobe generative expand (fila/2026-11-26-story-aguas-feed). Preferência: quando o story precisar ser refeito às pressas, ele aceita a imagem do feed estendida.
 
-- 26/11: Meus tempos v4 = v3 com T08h (José ~30 anos, caçula, irmãos mais velhos chorando) no lugar de T08e. Gravada em REELS\REEL 13 - MEUS TEMPOS e cena em CENAS. Aguarda aprovação; depois capa, legenda e fila para 04/12.
+- 26/11: Meus tempos v4 = v3 com T08h (José ~30 anos, caçula, irmãos mais velhos chorando) no lugar de T08e. Gravada em REELS\REEL 13 - MEUS TEMPOS e cena em CENAS. Aprovada 26/11 11:00. Na fila fila/reel13-meus-tempos (05/12 01:00Z = 04/12 22h); capa e legenda enviadas para aprovação. _PUBLICACAO.txt atualizado (incluída também a linha do REEL 12, que faltava).
