@@ -557,9 +557,9 @@
   "id": "G03",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Numa biblioteca moderna à noite, um estudioso de costas, à luz de uma luminária, compara mapas estelares impressos com uma Bíblia aberta sobre a mesa de madeira escura. Busca e descoberta. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null
+  "status": "enviado",
+  "conv": "5e521f877b1f4fce",
+  "enviado": "2026-11-26 05:10"
  },
  {
   "id": "G04",
