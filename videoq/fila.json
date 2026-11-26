@@ -589,19 +589,19 @@
   "id": "T08g",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Uma sala de estar ampla e elegante de uma casa moderna, ao entardecer, com luz dourada e quente entrando pelas janelas. O protagonista é um homem jovem de 30 anos, cabelo escuro curto, barba escura bem aparada, sem nenhum fio branco, de camisa clara, elegante. Ele se lança ao pescoço do irmão caçula, um rapaz de uns 20 anos, mais baixo, e os dois choram abraçados, os ombros tremendo. Ao redor, os outros irmãos, todos MAIS VELHOS que o protagonista, homens de 35 a 50 anos, alguns grisalhos, estão emocionados: um cobre o rosto com as mãos chorando, dois se ajoelham no chão de cabeça baixa, outro se aproxima e abraça os dois por trás. Plano médio, câmera lenta se aproximando. Emoção intensa, perdão, reconciliação, lágrimas de alívio. Sem cruz, sem texto, sem logotipos, sem plantas, sem vasos, sem árvores, sem névoa, sem fumaça, sem velas, sem mulheres. Fotografia real, nítida, contraste rico, cores quentes, sem aspecto de pintura, nada rústico nem antigo, roupas modernas.",
-  "status": "enviado",
+  "status": "descartada",
   "conv": "aff78379548522af",
   "enviado": "2026-11-26 10:11",
-  "obs": "26/11 Celio: José tem que aparentar 30 anos (T08e parecia 45, barba branca)"
+  "obs": "José com cara de mais de 30; T08h escolhida"
  },
  {
   "id": "T08h",
   "reel": "REEL 13 - MEUS TEMPOS",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, formato vertical 9:16. Plano médio fechado, ao entardecer, numa sala moderna com luz dourada vinda de lado. Um homem jovem de 30 anos, cabelo escuro curto, rosto jovem e barba escura curta, sem fios brancos, de camisa clara, abraça forte o irmão caçula, um rapaz de uns 20 anos, e chora no ombro dele; o rapaz também chora e o segura. Em seguida, os irmãos mais velhos, homens maduros de 35 a 50 anos, entram no quadro um a um, colocam as mãos nos ombros dos dois e se juntam num abraço apertado, alguns com o rosto molhado de lágrimas. Câmera lenta girando devagar em volta do abraço. Emoção intensa, perdão, família reconciliada. Sem cruz, sem texto, sem logotipos, sem plantas, sem vasos, sem árvores, sem névoa, sem fumaça, sem velas, sem mulheres. Fotografia real, nítida, contraste rico, cores quentes, sem aspecto de pintura, nada rústico nem antigo, roupas modernas.",
-  "status": "enviado",
+  "status": "aprovada",
   "conv": "0b97fe7103bd9327",
   "enviado": "2026-11-26 10:13",
-  "obs": "26/11 Celio: José tem que aparentar 30 anos (T08e parecia 45, barba branca)"
+  "obs": "usada na v4 (26/11)"
  },
  {
   "id": "G07",
