@@ -33,6 +33,9 @@ jobs:
           json.dump(r,open('verificar/resultado.json','w'),indent=1)
           PY
           git config user.name "publicador-cen"; git config user.email "publicador-cen@users.noreply.github.com"
-          tar cf /tmp/sel.tar -C /tmp/d $(cd /tmp/d && ls | grep -E "$(cat verificar/selecao.txt)")
-          openssl cms -encrypt -binary -aes256 -in /tmp/sel.tar -out verificar/sel.cms verificar/c.pem
+          mkdir -p /tmp/s
+          for n in $(cd /tmp/d && ls | grep -E "$(cat verificar/selecao.txt)"); do python3 -c "from PIL import Image;im=Image.open('/tmp/d/$n');im.thumbnail((540,960));im.convert('RGB').save('/tmp/s/$n',quality=85)"; done
+          tar cf /tmp/sel.tar -C /tmp/s .
+          ls -la /tmp/sel.tar
+          openssl cms -encrypt -binary -aes256 -outform DER -in /tmp/sel.tar -out verificar/sel.cms verificar/c.pem
           git add verificar/resultado.json verificar/sel.cms; git commit -qm "verificacao fila"; git pull -q --rebase; git push -q
