@@ -1,0 +1,22 @@
+{
+ "id": "2026-11-25-atravesso-as-aguas",
+ "tipo": "imagem",
+ "inicio": "2026-11-26T01:00:22.357121Z",
+ "etapas": [
+  "container feed IG: {'id': '18101605802482228'}",
+  "processamento: {'id': '18101605802482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18100129514130685'}",
+  "convite aceito em celioleme: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18101605925482228'}",
+  "processamento: {'id': '18101605925482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '18131963830648286'}",
+  "container story IG celioleme: {'id': '18652985485036265'}",
+  "processamento: {'id': '18652985485036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18117033725581790'}",
+  "foto story FB: {'id': '122114089773531850'}",
+  "story FB: {'success': True, 'post_id': '30420202037570088'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/DgL4ChimqSC/",
+ "fim": "2026-11-26T01:01:38.435711Z"
+}
