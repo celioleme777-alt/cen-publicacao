@@ -17,3 +17,5 @@ Atualizado 23/11/2026.
 - 26/11: story de 25/11 trocado de novo a pedido do Celio: imagem do feed estendida para 9:16 com Adobe generative expand (fila/2026-11-26-story-aguas-feed). Preferência: quando o story precisar ser refeito às pressas, ele aceita a imagem do feed estendida.
 
 - 26/11: Meus tempos v4 = v3 com T08h (José ~30 anos, caçula, irmãos mais velhos chorando) no lugar de T08e. Gravada em REELS\REEL 13 - MEUS TEMPOS e cena em CENAS. Aprovada 26/11 11:00. Na fila fila/reel13-meus-tempos (05/12 01:00Z = 04/12 22h); capa e legenda aprovadas 26/11 11:44 (CTA ajustado pelo Celio). _PUBLICACAO.txt atualizado (incluída também a linha do REEL 12, que faltava).
+
+- 26/11: áudio de Neemias (REEL 6 PROPÓSITO) recuperado da montagem REEL6_PROPOSITO_v1.mp4 (13/11) separando voz/trilha com demucs -> REELS\REEL 6 - PROPÓSITO\AUDIO_NEEMIAS_RECUPERADO.m4a (109 s, texto completo conferido por transcrição). Gravações do ASR do Celio foram perdidas. Roteiro no doc ROTEIROS MAGOS, NATAL E ANO NOVO (lá datado 08/01). Próximo: aguardar o Celio ouvir; depois cenas novas no padrão atual.
