@@ -1,0 +1,20 @@
+{
+ "id": "promo-semanal-2026-11-25",
+ "tipo": "imagem",
+ "inicio": "2026-11-26T00:00:30.391154Z",
+ "etapas": [
+  "container feed IG: {'id': '18003190041104284'}",
+  "processamento: {'id': '18003190041104284', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18100170482679129'}",
+  "convite aceito em celioleme: {'success': True}",
+  "container story IG celiolemeoficial: {'id': '18003190083104284'}",
+  "processamento: {'id': '18003190083104284', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celiolemeoficial publicado: {'id': '18348963760249794'}",
+  "container story IG celioleme: {'id': '18652977025036265'}",
+  "processamento: {'id': '18652977025036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '17919850962547620'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/DgLxMFWEoi7/",
+ "fim": "2026-11-26T00:01:43.808612Z"
+}
