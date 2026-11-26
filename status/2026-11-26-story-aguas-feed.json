@@ -1,0 +1,17 @@
+{
+ "id": "2026-11-26-story-aguas-feed",
+ "tipo": "imagem",
+ "inicio": "2026-11-26T10:33:21.860447Z",
+ "etapas": [
+  "container story IG cristoemnoscelioleme: {'id': '18101674586482228'}",
+  "processamento: {'id': '18101674586482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '18147975448584592'}",
+  "container story IG celioleme: {'id': '18653086915036265'}",
+  "processamento: {'id': '18653086915036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18164446687503292'}",
+  "foto story FB: {'id': '122114237037531850'}",
+  "story FB: {'success': True, 'post_id': '1462692115946616'}",
+  "arquivos temporarios removidos"
+ ],
+ "fim": "2026-11-26T10:34:07.566520Z"
+}
