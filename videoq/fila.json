@@ -1,5 +1,21 @@
 [
  {
+  "id": "R13",
+  "reel": "REEL 14 - RESISTO AO DIABO",
+  "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Close sobre uma mesa de madeira escura e elegante, à noite, com luz dourada lateral: mãos masculinas de camisa clara partem um pão e, em seguida, erguem lentamente um cálice de vidro com vinho tinto escuro contra a luz, que atravessa o vinho e brilha em vermelho profundo. Reverência, Santa Ceia, o sangue de Jesus. Câmera lenta. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null
+ },
+ {
+  "id": "R14",
+  "reel": "REEL 14 - RESISTO AO DIABO",
+  "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem de camisa clara, de costas, de pé no centro de uma sala moderna e escura com grandes janelas de vidro sobre a cidade à noite; ele ergue a cabeça e endireita os ombros enquanto uma luz dourada desce do alto e o envolve, iluminando a sala ao redor. Autoridade e firmeza. Câmera se aproximando devagar. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null
+ },
+ {
   "id": "B12",
   "reel": "REEL 12 - PORTA ABERTA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Noite de chuva numa praça moderna entre arranha-céus. Um homem de camisa clara encharcada, que estava ajoelhado no chão molhado, se levanta devagar, de costas para a câmera; diante dele uma porta alta de luz branca e dourada se abre no ar, recortando sua silhueta e iluminando a chuva como fios de ouro. Câmera baixa atrás dele. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
@@ -310,7 +326,7 @@
  {
   "id": "R02b",
   "reel": "REEL 14 - RESISTO AO DIABO",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "e8a4b4aa0174a31e",
   "enviado": "2026-11-25 04:10",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Ambiente moderno e sofisticado à noite, mármore escuro e vidro. Close de mãos masculinas de camisa clara fechando com firmeza uma Bíblia de couro preto impecável e erguendo-a junto ao peito; um feixe de luz lateral recorta as mãos e a capa. Determinação e autoridade. Câmera lenta. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo."
@@ -383,9 +399,10 @@
   "id": "R10",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Uma cruz simples de madeira escura, iluminada por um único feixe de luz branca, no fundo de um auditório moderno escuro; a câmera avança lentamente pelo corredor central até ela. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "aprovada",
+  "status": "descartada",
   "conv": "ce360c7e98abee57",
-  "enviado": "2026-11-23 16:15"
+  "enviado": "2026-11-23 16:15",
+  "obs": "tem cruz (Celio: cruz \"muito batista\"); trocada por R13"
  },
  {
   "id": "R11",
@@ -399,7 +416,7 @@
   "id": "R12",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem de camisa clara, de pé no parapeito do terraço de um arranha-céu, de costas, o vento forte na camisa, olhando a cidade ao entardecer, firme e vitorioso. Câmera aérea circulando. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "491745d19e8fbc31",
   "enviado": "2026-11-25 04:12"
  },
@@ -407,7 +424,7 @@
   "id": "S01",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Numa cafeteria moderna e clara, dois amigos sentados à mesa; um deles, de costas para a câmera, fala com entusiasmo e gesticula, o outro ouve atento, de perfil. Luz de manhã pela vitrine. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "78db39b4efa16c5e",
   "enviado": "2026-11-25 04:13"
  },
@@ -415,15 +432,16 @@
   "id": "S02",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Num loft moderno à noite, um pequeno grupo de pessoas de costas com as mãos levantadas; uma luz dourada intensa desce do alto e se derrama sobre elas como uma onda. Poder do Espírito. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "pendente",
   "conv": "a50e2d0137519460",
-  "enviado": "2026-11-25 04:15"
+  "enviado": "2026-11-25 04:15",
+  "obs": "falhou no Gemini (26/11); reenviar"
  },
  {
   "id": "S03",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Uma mulher jovem caminha confiante, de costas, por uma rua movimentada da cidade ao sol da manhã, com uma luz dourada suave envolvendo-a; as pessoas ao redor passam. Câmera acompanhando. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "0429da37e00faefb",
   "enviado": "2026-11-25 04:16"
  },
@@ -467,15 +485,16 @@
   "id": "S04",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Num refeitório de uma obra, um operário de colete, de costas para a câmera, conta algo aos colegas sentados à mesa, que o ouvem atentos e emocionados. Luz natural. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "pendente",
   "conv": "1a85b599e11c194e",
-  "enviado": "2026-11-25 10:13"
+  "enviado": "2026-11-25 10:13",
+  "obs": "falhou no Gemini (26/11); reenviar"
  },
  {
   "id": "S05",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Ponto de vista de alguém que volta a enxergar: a imagem começa totalmente desfocada e escura e vai ficando nítida e luminosa, revelando uma rua ensolarada cheia de vida. Sem rostos. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "46307352ef475ff3",
   "enviado": "2026-11-25 10:15"
  },
@@ -501,7 +520,7 @@
   "id": "S06",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Na porta de um hospital moderno, um homem recuperado sai caminhando com uma mochila, de costas, e é recebido com um abraço apertado pela esposa e pelos filhos. Luz do dia, emoção. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "f9908fb89c3372fa",
   "enviado": "2026-11-25 18:11"
  },
@@ -509,7 +528,7 @@
   "id": "S07",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Vista aérea noturna de uma metrópole iluminada; uma luz dourada desce do céu sobre a cidade como uma chuva de luz. Câmera descendo lentamente. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "0485c0c60d5a65f9",
   "enviado": "2026-11-25 19:11"
  },
@@ -517,7 +536,7 @@
   "id": "S08",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Ondas do mar quebrando uma após a outra em câmera lenta ao pôr do sol, a espuma dourada; repetição, força e renovação. Câmera baixa na areia. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "07cc4157c17e84a6",
   "enviado": "2026-11-25 23:56"
  },
@@ -525,7 +544,7 @@
   "id": "S09",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Uma família reunida à mesa do almoço de domingo num apartamento moderno, rindo e conversando, vista de lado e de costas; luz do meio-dia pela janela. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "d055cb79449eeaf7",
   "enviado": "2026-11-25 23:58"
  },
@@ -533,15 +552,16 @@
   "id": "S10",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. À noite, numa praça da cidade, um jovem se senta ao lado de um homem que está sozinho num banco e começa a conversar com ele, os dois de costas para a câmera; luz quente dos postes. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "pendente",
   "conv": "5ca74ee2512c0c1e",
-  "enviado": "2026-11-26 00:00"
+  "enviado": "2026-11-26 00:00",
+  "obs": "falhou no Gemini (26/11); reenviar"
  },
  {
   "id": "G01",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. À noite, num observatório astronômico moderno, um pequeno grupo de estudiosos de roupas contemporâneas, de costas, observa telas enormes com imagens do céu estrelado; a cúpula está aberta para as estrelas. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "2025fa1152d2e997",
   "enviado": "2026-11-26 00:01"
  },
@@ -549,7 +569,7 @@
   "id": "G02",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um telescópio gigantesco gira lentamente dentro de uma cúpula de observatório que se abre revelando um céu noturno limpo e cheio de estrelas. Câmera baixa, grandioso. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "50a10ecfc21545f7",
   "enviado": "2026-11-26 00:03"
  },
@@ -557,7 +577,7 @@
   "id": "G03",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Numa biblioteca moderna à noite, um estudioso de costas, à luz de uma luminária, compara mapas estelares impressos com uma Bíblia aberta sobre a mesa de madeira escura. Busca e descoberta. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "5e521f877b1f4fce",
   "enviado": "2026-11-26 05:10"
  },
@@ -565,7 +585,7 @@
   "id": "G04",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Sobre o horizonte noturno de um deserto de dunas, uma estrela intensamente brilhante surge e cresce no céu, mais forte que todas as outras, iluminando as dunas. Câmera baixa. Sem montanhas, só dunas. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "9adf78dc5587b860",
   "enviado": "2026-11-26 09:10"
  },
@@ -573,7 +593,7 @@
   "id": "G05",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Vista aérea ao entardecer: um comboio de três utilitários 4x4 modernos atravessa um deserto imenso de dunas, levantando areia, seguindo em direção a uma estrela brilhante que aparece no céu. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "67f1229229a4ef85",
   "enviado": "2026-11-26 07:11"
  },
@@ -581,7 +601,7 @@
   "id": "G06",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. À noite, três viajantes de roupas de viagem, de costas, chegam a pé a uma metrópole moderna movimentada e iluminada, e param no meio da avenida olhando para o céu, procurando a estrela. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "15a19ecc04de9962",
   "enviado": "2026-11-26 07:13"
  },
@@ -607,7 +627,7 @@
   "id": "G07",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem poderoso, de costas, de pé numa sala de comando escura com paredes de vidro no alto de um arranha-céu, olhando tenso para a cidade, enquanto assessores agitados se movimentam atrás dele com tablets. Clima de ameaça. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "151896dc2d2262e0",
   "enviado": "2026-11-26 10:15"
  },
@@ -615,7 +635,7 @@
   "id": "G08",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. À noite, uma estrela muito brilhante desliza no céu e para exatamente acima de uma casa simples e iluminada num bairro tranquilo da cidade, banhando o telhado de luz. Câmera aérea descendo. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "3a3867cd62a62979",
   "enviado": "2026-11-26 10:16"
  },
@@ -623,7 +643,7 @@
   "id": "G09",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Três homens de roupas de viagem, de costas, entram numa sala simples e acolhedora e se ajoelham diante de uma jovem mãe sentada com um bebê no colo, envoltos por uma luz dourada quente. Adoração e reverência. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "8a616b4430a88696",
   "enviado": "2026-11-26 18:14"
  },
@@ -631,7 +651,7 @@
   "id": "G10",
   "reel": "REEL 9 - UM NOVO CAMINHO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Close de mãos masculinas colocando três presentes diante de um bebê: uma caixa com barras de ouro, um frasco de vidro com resina perfumada e um frasco de óleo precioso, sobre um tecido claro, à luz dourada. Nada aceso, nada queimando. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "enviado",
+  "status": "baixada",
   "conv": "2dfb4911ac73e3d9",
   "enviado": "2026-11-26 18:15"
  },
