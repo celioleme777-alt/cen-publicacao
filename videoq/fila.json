@@ -1,5 +1,37 @@
 [
  {
+  "id": "R01c",
+  "reel": "REEL 14 - RESISTO AO DIABO",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, fotografia de cinema elegante, formato vertical 9:16. À noite, numa avenida elegante de uma grande cidade, com o asfalto molhado refletindo as luzes douradas, um homem de uns 40 anos, camisa clara de manga dobrada e calça escura, caminha calmo e firme, de costas para a câmera. Uma luz dourada suave parece sair dele e, à medida que ele avança, as sombras escuras no chão ao redor recuam e se afastam dele. Câmera acompanhando atrás, em movimento lento. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz, sem sobretudo, sem monstros. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null
+ },
+ {
+  "id": "R02c",
+  "reel": "REEL 14 - RESISTO AO DIABO",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, fotografia de cinema elegante, formato vertical 9:16. Cena noturna íntima e elegante: um homem de camisa clara sentado à mesa de madeira escura de um escritório refinado, sob a luz quente de um abajur de latão. Diante dele, uma Bíblia de couro escuro aberta, virada corretamente para ele, como quem lê. A mão dele desliza devagar sobre a página e para num versículo. Plano por cima do ombro dele, foco nas mãos e na página, fundo desfocado com estantes de livros. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz, sem sobretudo, sem monstros. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null
+ },
+ {
+  "id": "R08b",
+  "reel": "REEL 14 - RESISTO AO DIABO",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, fotografia de cinema elegante, formato vertical 9:16. No deserto, ao entardecer, sob um céu dramático de nuvens escuras e carregadas, um homem de camisa clara e calça escura está de pé, firme, de costas para a câmera, segurando uma Bíblia fechada na mão direita, ao lado do corpo. Ele ergue a Bíblia devagar à frente do peito; nesse instante um feixe largo de luz dourada rompe as nuvens e cai sobre ele. Grande angular, câmera baixa, épico e solene. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz, sem sobretudo, sem monstros. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null
+ },
+ {
+  "id": "R08c",
+  "reel": "REEL 14 - RESISTO AO DIABO",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, fotografia de cinema elegante, formato vertical 9:16. No deserto ao entardecer, um homem de camisa clara, de costas para a câmera, estende o braço direito para a frente com a mão aberta, num gesto de autoridade. Diante dele, uma parede de tempestade de areia escura que avançava se desfaz e recua rapidamente, e o céu se abre em luz dourada limpa sobre as dunas. Câmera baixa atrás dele, épico, câmera lenta. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz, sem sobretudo, sem monstros. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null
+ },
+ {
   "id": "R13",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Close sobre uma mesa de madeira escura e elegante, à noite, com luz dourada lateral: mãos masculinas de camisa clara partem um pão e, em seguida, erguem lentamente um cálice de vidro com vinho tinto escuro contra a luz, que atravessa o vinho e brilha em vermelho profundo. Reverência, Santa Ceia, o sangue de Jesus. Câmera lenta. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
@@ -264,9 +296,10 @@
   "id": "R01",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Um homem de camisa clara caminha com firmeza, de costas, por um corredor escuro; a cada passo dele, as sombras das paredes recuam e uma luz dourada o envolve. Câmera atrás dele. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "aprovada",
+  "status": "descartada",
   "conv": "51047c3dd18a210c",
-  "enviado": "2026-11-22 16:07"
+  "enviado": "2026-11-22 16:07",
+  "obs": "Celio 27/11: padrão regular/sofrível, pouco elegante"
  },
  {
   "id": "R02",
@@ -424,10 +457,11 @@
  {
   "id": "R02b",
   "reel": "REEL 14 - RESISTO AO DIABO",
-  "status": "baixada",
+  "status": "descartada",
   "conv": "e8a4b4aa0174a31e",
   "enviado": "2026-11-25 04:10",
-  "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Ambiente moderno e sofisticado à noite, mármore escuro e vidro. Close de mãos masculinas de camisa clara fechando com firmeza uma Bíblia de couro preto impecável e erguendo-a junto ao peito; um feixe de luz lateral recorta as mãos e a capa. Determinação e autoridade. Câmera lenta. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo."
+  "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Ambiente moderno e sofisticado à noite, mármore escuro e vidro. Close de mãos masculinas de camisa clara fechando com firmeza uma Bíblia de couro preto impecável e erguendo-a junto ao peito; um feixe de luz lateral recorta as mãos e a capa. Determinação e autoridade. Câmera lenta. Sem rostos visíveis, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura, nada rústico nem antigo.",
+  "obs": "Celio 27/11: padrão regular/sofrível, pouco elegante"
  },
  {
   "id": "R03",
@@ -481,9 +515,10 @@
   "id": "R08",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Uma sombra gigantesca e ameaçadora projetada numa parede de concreto recua e se dissolve diante de um homem de pé, de costas para a câmera, segurando uma Bíblia erguida; a luz atrás dele cresce. Autoridade. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "aprovada",
+  "status": "descartada",
   "conv": "715785ca6c6b1e87",
-  "enviado": "2026-11-23 16:09"
+  "enviado": "2026-11-23 16:09",
+  "obs": "Celio 27/11: padrão regular/sofrível, pouco elegante"
  },
  {
   "id": "R09",
