@@ -1,0 +1,22 @@
+{
+ "id": "2026-11-26-videira",
+ "tipo": "imagem",
+ "inicio": "2026-11-27T01:00:24.547831Z",
+ "etapas": [
+  "container feed IG: {'id': '18101795081482228'}",
+  "processamento: {'id': '18101795081482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "feed IG publicado: {'id': '18136308157760298'}",
+  "convite aceito em celioleme: {'success': True}",
+  "container story IG cristoemnoscelioleme: {'id': '18101795243482228'}",
+  "processamento: {'id': '18101795243482228', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG cristoemnoscelioleme publicado: {'id': '17917775574492067'}",
+  "container story IG celioleme: {'id': '18653642251036265'}",
+  "processamento: {'id': '18653642251036265', 'status': 'Finished: Media has been uploaded and it is ready to be published.', 'status_code': 'FINISHED'}",
+  "story IG celioleme publicado: {'id': '18102283160454484'}",
+  "foto story FB: {'id': '122114396133531850'}",
+  "story FB: {'success': True, 'post_id': '1665769898573854'}",
+  "arquivos temporarios removidos"
+ ],
+ "permalink_ig": "https://www.instagram.com/p/DgOc1nNlzRP/",
+ "fim": "2026-11-27T01:01:37.445240Z"
+}
