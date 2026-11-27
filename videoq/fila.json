@@ -109,9 +109,9 @@
   "id": "P12",
   "reel": "REEL 6 - PROPÓSITO",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Ao amanhecer, um homem de camisa clara caminha firme, de costas, pelo terraço de um arranha-céu até a borda e para, olhando a cidade iluminada pelo sol nascente; o vento move a camisa. Câmera aérea se elevando atrás dele. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": null,
-  "enviado": null
+  "status": "enviado",
+  "conv": "790d4841f03642ba",
+  "enviado": "2026-11-27 12:10"
  },
  {
   "id": "B12",
@@ -530,9 +530,9 @@
   "id": "S02",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Num loft moderno à noite, um pequeno grupo de pessoas de costas com as mãos levantadas; uma luz dourada intensa desce do alto e se derrama sobre elas como uma onda. Poder do Espírito. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": "a50e2d0137519460",
-  "enviado": "2026-11-25 04:15",
+  "status": "enviado",
+  "conv": "c4ded6e922de4d65",
+  "enviado": "2026-11-27 12:13",
   "obs": "falhou no Gemini (26/11); reenviar"
  },
  {
@@ -583,9 +583,9 @@
   "id": "S04",
   "reel": "REEL 15 - SOU TESTEMUNHA",
   "prompt": "Vídeo realista, estilo cinematográfico de longa-metragem, formato vertical 9:16. Num refeitório de uma obra, um operário de colete, de costas para a câmera, conta algo aos colegas sentados à mesa, que o ouvem atentos e emocionados. Luz natural. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "pendente",
-  "conv": "1a85b599e11c194e",
-  "enviado": "2026-11-25 10:13",
+  "status": "enviado",
+  "conv": "ef69dd42274f6951",
+  "enviado": "2026-11-27 12:15",
   "obs": "falhou no Gemini (26/11); reenviar"
  },
  {
