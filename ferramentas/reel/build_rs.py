@@ -3,11 +3,11 @@ sys.path.insert(0,'/home/claude/work')
 from cap import layer
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 os.chdir('/home/claude/work/rs')
-OUT=sys.argv[1] if len(sys.argv)>1 else 'REEL14_RESISTO_AO_DIABO_v1.mp4'
+OUT=sys.argv[1] if len(sys.argv)>1 else 'REEL14_RESISTO_AO_DIABO_v2.mp4'
 XF=0.5
 END_START=123.9; END_LEN=4.6; TOTAL=END_START+END_LEN
-SEG=[('R01',0.0,0.0,7.0),('R02b',0.0,7.0,14.2),('R03',0.0,14.2,22.0),('R04b',0.0,22.0,32.5),
-     ('R05',0.0,32.5,39.4),('R06',0.0,39.4,46.5),('R07',0.0,46.5,58.1),('R08',0.0,58.1,70.0),
+SEG=[('R01c',0.0,0.0,7.0),('R02c',0.0,7.0,14.2),('R03',0.0,14.2,22.0),('R04b',0.0,22.0,32.5),
+     ('R05',0.0,32.5,39.4),('R06',0.0,39.4,46.5),('R07',0.0,46.5,58.1),('R08b',0.0,58.1,64.3),('R08c',0.0,64.3,70.0),
      ('R09',0.0,70.0,81.3),('R13',0.0,81.3,89.2),('R11',0.0,89.2,101.5),('R14',0.0,101.5,114.4),
      ('R12',0.0,114.4,TOTAL)]
 TG='TIAGO 4:7'; AP='APOCALIPSE 12:11'; JO='1 JOÃO 4:4'
