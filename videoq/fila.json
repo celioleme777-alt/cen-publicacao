@@ -1,5 +1,13 @@
 [
  {
+  "id": "R08d",
+  "reel": "REEL 14 - RESISTO AO DIABO",
+  "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, fotografia de cinema elegante, formato vertical 9:16. No deserto, ao entardecer, sob um céu de nuvens escuras e baixas, com vento forte levantando areia, um homem jovem de uns 30 anos, cabelo escuro curto, barba escura curta e rala, sem nenhum fio branco, camisa de linho clara com as mangas dobradas e calça escura, está de pé, firme, visto de perfil em plano médio, voltado para uma massa escura de tempestade de areia à sua frente. Com o semblante sério e sereno, sem raiva, ele fala com autoridade, com voz firme, apontando o dedo indicador para a escuridão, como quem dá uma ordem. A cada palavra a tempestade hesita e para de avançar. Luz dourada lateral recortando o rosto e a camisa. Épico, cinema, câmera lenta. Sem rosto em close extremo, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz, sem sobretudo, sem monstros. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
+  "status": "pendente",
+  "conv": null,
+  "enviado": null
+ },
+ {
   "id": "R01c",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, fotografia de cinema elegante, formato vertical 9:16. À noite, numa avenida elegante de uma grande cidade, com o asfalto molhado refletindo as luzes douradas, um homem de uns 40 anos, camisa clara de manga dobrada e calça escura, caminha calmo e firme, de costas para a câmera. Uma luz dourada suave parece sair dele e, à medida que ele avança, as sombras escuras no chão ao redor recuam e se afastam dele. Câmera acompanhando atrás, em movimento lento. Sem rostos em close, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz, sem sobretudo, sem monstros. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
@@ -21,10 +29,10 @@
   "id": "R08b",
   "reel": "REEL 14 - RESISTO AO DIABO",
   "prompt": "Vídeo realista, estilo cinematográfico épico de longa-metragem, fotografia de cinema elegante, formato vertical 9:16. No deserto, ao entardecer, sob um céu de nuvens escuras e baixas, com vento forte levantando areia, um homem de uns 40 anos, camisa clara e calça escura, está de pé, firme, visto de perfil em plano médio, voltado para uma massa escura de tempestade de areia à sua frente. Com o semblante sério e sereno, sem raiva, ele fala com autoridade, com voz firme, apontando o dedo indicador para a escuridão, como quem dá uma ordem. A cada palavra a tempestade hesita e para de avançar. Luz dourada lateral recortando o rosto e a camisa. Épico, cinema, câmera lenta. Sem rosto em close extremo, sem texto, sem logotipos, sem plantas, sem árvores, sem montanhas, sem névoa, sem fumaça, sem velas, sem cruz, sem sobretudo, sem monstros. Fotografia real, nítida, alto contraste, cores ricas, sem aspecto de pintura.",
-  "status": "aprovada",
+  "status": "descartada",
   "conv": "70e05680a98408f1",
   "enviado": "2026-11-27 16:15",
-  "obs": "usada na Resisto v2 (27/11)"
+  "obs": "Celio 28/11: homem de barba branca; Jesus tinha 30 anos, usar o tipo do R08c"
  },
  {
   "id": "R08c",
