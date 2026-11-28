@@ -24,7 +24,7 @@ Atualizado 23/11/2026.
 - 01/12 ter: REEL 12 Porta aberta (na fila)
 - 04/12 sex: REEL 13 Meus tempos (na fila)
 - 08/12 ter: REEL 14 Resisto ao diabo — v2 entregue 27/11 16:45 (R01c, R02c, R08b, R08c no lugar de R01, R02b, R08), aguarda aprovação
-- 11/12 sex: REEL 6 Propósito (Neemias) — áudio recuperado; cenas P01–P12 na fila do Gemini
+- 11/12 sex: REEL 6 Propósito (Neemias) — v2 entregue 28/11 15:35 (build ferramentas/reel/build_ne.py; P01–P12), aguarda aprovação
 - 15/12 ter: REEL 15 Sou testemunha (S01–S10; S02/S04/S10 refazer)
 - 18/12 sex: livre (sem reel)
 - 22/12 ter: REEL 22 Deus cumpre (Simeão)
