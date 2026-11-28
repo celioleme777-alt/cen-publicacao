@@ -3,33 +3,33 @@ sys.path.insert(0,'/home/claude/work')
 from cap import layer
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 os.chdir('/home/claude/work/rs')
-OUT=sys.argv[1] if len(sys.argv)>1 else 'REEL14_RESISTO_AO_DIABO_v2.mp4'
+OUT=sys.argv[1] if len(sys.argv)>1 else 'REEL14_RESISTO_AO_DIABO_v3.mp4'
 XF=0.5
-END_START=123.9; END_LEN=4.6; TOTAL=END_START+END_LEN
+END_START=125.49; END_LEN=4.6; TOTAL=END_START+END_LEN
 SEG=[('R01c',0.0,0.0,7.0),('R02c',0.0,7.0,14.2),('R03',0.0,14.2,22.0),('R04b',0.0,22.0,32.5),
-     ('R05',0.0,32.5,39.4),('R06',0.0,39.4,46.5),('R07',0.0,46.5,58.1),('R08b',0.0,58.1,64.3),('R08c',0.0,64.3,70.0),
-     ('R09',0.0,70.0,81.3),('R13',0.0,81.3,89.2),('R11',0.0,89.2,101.5),('R14',0.0,101.5,114.4),
-     ('R12',0.0,114.4,TOTAL)]
+     ('R05',0.0,32.5,40.8),('R06',0.0,40.8,48.09),('R07',0.0,48.09,59.69),('R08d',0.0,59.69,65.89),('R08c',0.0,65.89,71.59),
+     ('R09',0.0,71.59,82.89),('R13',0.0,82.89,90.79),('R11',0.0,90.79,103.09),('R14',0.0,103.09,115.99),
+     ('R12',0.0,115.99,TOTAL)]
 TG='TIAGO 4:7'; AP='APOCALIPSE 12:11'; JO='1 JOÃO 4:4'
 CAP=[(0.0,'O diabo não foge de você.',None),(3.34,'Ele foge do que está *sobre*',None),(5.0,'e *dentro* de você.',None),
  (7.0,'Está escrito em Tiago 4:7:',None),(9.40,'“Submetam-se a Deus.',TG),(11.02,'Resistam ao diabo,',TG),(12.04,'e ele *fugirá de vocês.*”',TG),
  (14.2,'Repare que existe *uma ordem* aqui.',None),(15.76,'Primeiro, você tem que',None),(17.18,'se *submeter* a Deus.',None),(18.84,'Só então você poderá',None),(20.76,'*resistir* ao diabo.',None),
  (22.08,'Quem anda debaixo do governo de Deus',None),(24.12,'anda *coberto.*',None),(25.46,'E é essa cobertura',None),(27.16,'que o inferno reconhece:',None),(28.86,'o *sangue de Jesus*',None),(30.24,'e a *unção do Espírito Santo.*',None),
- (32.52,'Jesus veio para ser exemplo.',None),(34.82,'Ele saiu do Jordão',None),(35.82,'*cheio do Espírito Santo*',None),(37.16,'e foi para o deserto.',None),
- (38.62,'Quarenta dias com fome,',None),(40.64,'sem pão, sem água,',None),(42.5,'*sozinho.*',None),
- (43.06,'E no final desses quarenta dias,',None),(45.34,'o diabo veio com três propostas:',None),(48.72,'pão,',None),(49.62,'espetáculo',None),(50.62,'e *poder.*',None),
- (52.86,'Três atalhos para tirar Jesus',None),(55.3,'do plano perfeito de Deus.',None),
- (58.18,'Jesus não discutiu.',None),(59.82,'Não negociou.',None),(61.2,'Respondeu três vezes:',None),(62.28,'“*Está escrito*, Satanás.”',None),
- (64.34,'E na última, ordenou:',None),(66.42,'“*Retire-se* daqui, Satanás!”',None),(68.28,'E o diabo o deixou.',None),
- (70.02,'O inimigo não tem medo do seu tamanho,',None),(72.44,'da sua formação acadêmica,',None),(74.34,'da sua conta bancária',None),(75.36,'ou da sua posição social.',None),
- (77.4,'Ele tem medo do *sangue*',None),(79.14,'e da *unção* que estão sobre a sua vida.',None),
- (81.32,'Está escrito em Apocalipse 12:11:',None),(83.76,'“Eles o venceram',AP),(85.02,'pelo *sangue do Cordeiro*',AP),(86.56,'e pela palavra do testemunho.”',AP),
- (89.28,'O deserto também pode chegar.',None),(91.02,'Mas, se ele chegar,',None),(91.9,'você não entra nele *sozinho.*',None),
- (94.2,'Está escrito em 1 João 4:4:',None),(97.38,'“Aquele que está em vocês',JO),(98.64,'é *maior* do que aquele',JO),(99.94,'que está no mundo.”',JO),
- (101.58,'O mesmo Espírito que estava',None),(103.26,'sobre Jesus no deserto',None),(105.2,'está *sobre você.*',None),
- (106.84,'Em Cristo, você carrega',None),(108.74,'a mesma *Palavra* que Ele usou',None),(110.64,'e a mesma *autoridade*',None),(112.56,'que estava sobre Ele.',None),
- (114.44,'Então não fuja do diabo.',None),(116.98,'Faça o diabo *fugir de você.*',None),
- (119.52,'Em Cristo, eu resisto ao diabo',None),(121.92,'e ele *foge de mim!*',None)]
+ (32.52,'Jesus veio para ser exemplo.',None),(34.62,'Ele saiu agora do Jordão',None),(36.26,'*cheio do Espírito Santo*',None),(37.78,'e foi *levado pelo Espírito* ao deserto.',None),
+ (40.87,'Quarenta dias em jejum,',None),(42.97,'com fome,',None),(44.25,'*sozinho.*',None),
+ (44.65,'E no final desses quarenta dias,',None),(46.93,'o diabo veio com três propostas:',None),(50.31,'pão,',None),(51.21,'espetáculo',None),(52.21,'e *poder.*',None),
+ (54.45,'Três atalhos para tirar Jesus',None),(56.89,'do plano perfeito de Deus.',None),
+ (59.77,'Jesus não discutiu.',None),(61.41,'Não negociou.',None),(62.79,'Respondeu três vezes:',None),(63.87,'“*Está escrito*, Satanás.”',None),
+ (65.93,'E na última, ordenou:',None),(68.01,'“*Retire-se* daqui, Satanás!”',None),(69.87,'E o diabo o deixou.',None),
+ (71.61,'O inimigo não tem medo do seu tamanho,',None),(74.03,'da sua formação acadêmica,',None),(75.93,'da sua conta bancária',None),(76.95,'ou da sua posição social.',None),
+ (78.99,'Ele tem medo do *sangue*',None),(80.73,'e da *unção* que estão sobre a sua vida.',None),
+ (82.91,'Está escrito em Apocalipse 12:11:',None),(85.35,'“Eles o venceram',AP),(86.61,'pelo *sangue do Cordeiro*',AP),(88.15,'e pela palavra do testemunho.”',AP),
+ (90.87,'O deserto também pode chegar.',None),(92.61,'Mas, se ele chegar,',None),(93.49,'você não entra nele *sozinho.*',None),
+ (95.79,'Está escrito em 1 João 4:4:',None),(98.97,'“Aquele que está em vocês',JO),(100.23,'é *maior* do que aquele',JO),(101.53,'que está no mundo.”',JO),
+ (103.17,'O mesmo Espírito que estava',None),(104.85,'sobre Jesus no deserto',None),(106.79,'está *sobre você.*',None),
+ (108.43,'Em Cristo, você carrega',None),(110.33,'a mesma *Palavra* que Ele usou',None),(112.23,'e a mesma *autoridade*',None),(114.15,'que estava sobre Ele.',None),
+ (116.03,'Então não fuja do diabo.',None),(118.57,'Faça o diabo *fugir de você.*',None),
+ (121.11,'Em Cristo, eu resisto ao diabo',None),(123.51,'e ele *foge de mim!*',None)]
 W=json.load(open('words.json'))
 def last_word_end(t0,t1):
     e=[b for a,b,_ in W if a>=t0-0.05 and a<t1]

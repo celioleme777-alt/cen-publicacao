@@ -33,3 +33,5 @@ Atualizado 23/11/2026.
 - 01/01 sex: REEL 8 Nunca passei por aqui (Ano Novo)
 - 06/01 qua: REEL 9 Um novo caminho (Magos, Epifania)
 - 08/01 sex: REEL 08-01 Sou instrumento de Deus (Ananias)
+
+- 28/11: Resisto: Celio regravou 2 frases (13:04) -> "Ele saiu agora do Jordão cheio do Espírito Santo e foi levado pelo Espírito ao deserto." e "Quarenta dias em jejum, com fome, sozinho." Emendadas em voz.m4a (original em voz_original.m4a); timeline +1,59 s a partir de 43,10 s; legendas e SEG ajustados; words.json refeito. v3 sai com R08d + áudio novo.
