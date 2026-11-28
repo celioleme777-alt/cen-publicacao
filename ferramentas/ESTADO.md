@@ -35,3 +35,4 @@ Atualizado 23/11/2026.
 - 08/01 sex: REEL 08-01 Sou instrumento de Deus (Ananias)
 
 - 28/11: Resisto: Celio regravou 2 frases (13:04) -> "Ele saiu agora do Jordão cheio do Espírito Santo e foi levado pelo Espírito ao deserto." e "Quarenta dias em jejum, com fome, sozinho." Emendadas em voz.m4a (original em voz_original.m4a); timeline +1,59 s a partir de 43,10 s; legendas e SEG ajustados; words.json refeito. v3 sai com R08d + áudio novo.
+- 28/11 13:28: Celio aprovou o áudio emendado v2 (trecho novo com DeepFilterNet + EQ casando com o original). voz.m4a = esse; anteriores em voz_original.m4a e voz_emenda1.m4a.
